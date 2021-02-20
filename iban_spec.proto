@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+package specs;
+
+
+
+message IbanSpec {
+    string country_code = 1;
+    string country_name = 2;
+    int32 length = 3;
+
+    message Patterns {
+        string check_digit = 1;
+        string bban = 2;
+        string constants = 3;
+    }
+    
+    message Fields {
+        
+        message DataLocation {
+            int32 position = 1;
+            int32 length = 2;
+        }
+        DataLocation bank_code = 1;
+        DataLocation account_number = 2;
+        DataLocation branch_code = 3;
+        DataLocation account_type = 4;
+        DataLocation account_holder = 5;
+        DataLocation balance_account_number = 6;
+        DataLocation currency_code  = 7;
+        repeated DataLocation country_check_codes = 8;
+        repeated DataLocation constants = 9;
+    }
+
+    Patterns patterns = 4;
+    Fields fields = 5;
+}
+
+message IbansSpecs {
+    repeated IbanSpec list = 1;
+}
