@@ -1,0 +1,3082 @@
+[
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{8}[A-Za-z0-9]{12}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 12,
+                "length": 12
+            },
+            "branch_code": {
+                "position": 8,
+                "length": 4
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "AD",
+        "country_name": "Andorra",
+        "length": 24
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{3}[0-9]{16}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 3
+            },
+            "account_number": {
+                "position": 7,
+                "length": 16
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "AE",
+        "country_name": "United Arab Emirates",
+        "length": 23
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{8}[A-Za-z0-9]{16}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 3
+            },
+            "account_number": {
+                "position": 12,
+                "length": 16
+            },
+            "branch_code": {
+                "position": 7,
+                "length": 4
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [
+                {
+                    "position": 11,
+                    "length": 1
+                }
+            ],
+            "constants": []
+        },
+        "country_code": "AL",
+        "country_name": "Albania",
+        "length": 28
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{21}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "AO",
+        "country_name": "Angola",
+        "length": 25
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{16}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 5
+            },
+            "account_number": {
+                "position": 9,
+                "length": 11
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "AT",
+        "country_name": "Austria",
+        "length": 20
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Za-z0-9]{4}[0-9]{20}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 8,
+                "length": 20
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "AZ",
+        "country_name": "Azerbaijan",
+        "length": 28
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{16}",
+            "check_digit": "^.{2}39",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 3
+            },
+            "account_number": {
+                "position": 10,
+                "length": 8
+            },
+            "branch_code": {
+                "position": 7,
+                "length": 3
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [
+                {
+                    "position": 18,
+                    "length": 2
+                }
+            ],
+            "constants": []
+        },
+        "country_code": "BA",
+        "country_name": "Bosnia and Herzegovina",
+        "length": 20
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{12}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 3
+            },
+            "account_number": {
+                "position": 7,
+                "length": 7
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [
+                {
+                    "position": 14,
+                    "length": 2
+                }
+            ],
+            "constants": []
+        },
+        "country_code": "BE",
+        "country_name": "Belgium",
+        "length": 16
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Za-z0-9]{2}[0-9]{22}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "BF",
+        "country_name": "Burkina Faso",
+        "length": 28
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{4}[0-9]{6}[A-Za-z0-9]{8}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 14,
+                "length": 8
+            },
+            "branch_code": {
+                "position": 8,
+                "length": 4
+            },
+            "account_type": {
+                "position": 12,
+                "length": 2
+            },
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "BG",
+        "country_name": "Bulgaria",
+        "length": 22
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{4}[A-Za-z0-9]{14}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 8,
+                "length": 14
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "BH",
+        "country_name": "Bahrain",
+        "length": 22
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{12}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "BI",
+        "country_name": "Burundi",
+        "length": 16
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Za-z0-9]{2}[0-9]{22}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "BJ",
+        "country_name": "Benin",
+        "length": 28
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{23}[A-Z]{1}[A-Za-z0-9]{1}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 8
+            },
+            "account_number": {
+                "position": 17,
+                "length": 10
+            },
+            "branch_code": {
+                "position": 12,
+                "length": 5
+            },
+            "account_type": {
+                "position": 27,
+                "length": 1
+            },
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": {
+                "position": 28,
+                "length": 1
+            },
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "BR",
+        "country_name": "Brazil",
+        "length": 29
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Za-z0-9]{4}[0-9]{4}[A-Za-z0-9]{16}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 12,
+                "length": 16
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": {
+                "position": 8,
+                "length": 4
+            },
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "BY",
+        "country_name": "Belarus",
+        "length": 28
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{23}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "CF",
+        "country_name": "Central African Republic",
+        "length": 27
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{23}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "CG",
+        "country_name": "Congo,Republic of the",
+        "length": 27
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{5}[A-Za-z0-9]{12}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 5
+            },
+            "account_number": {
+                "position": 9,
+                "length": 12
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "CH",
+        "country_name": "Switzerland",
+        "length": 21
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{1}[0-9]{23}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "CI",
+        "country_name": "C\u00f4te d'Ivoire",
+        "length": 28
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{23}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "CM",
+        "country_name": "Cameroon",
+        "length": 27
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{18}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": [
+                {
+                    "position": 4,
+                    "constant": "0",
+                    "pattern": "[.]{4}[0]{1}"
+                }
+            ]
+        },
+        "fields": {
+            "bank_code": {
+                "position": 5,
+                "length": 3
+            },
+            "account_number": {
+                "position": 8,
+                "length": 14
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": [
+                {
+                    "position": 4,
+                    "constant": ""
+                }
+            ]
+        },
+        "country_code": "CR",
+        "country_name": "Costa Rica",
+        "length": 22
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{21}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "CV",
+        "country_name": "Cabo Verde",
+        "length": 25
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{8}[A-Za-z0-9]{16}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 3
+            },
+            "account_number": {
+                "position": 12,
+                "length": 16
+            },
+            "branch_code": {
+                "position": 7,
+                "length": 5
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "CY",
+        "country_name": "Cyprus",
+        "length": 28
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{20}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 14,
+                "length": 10
+            },
+            "branch_code": {
+                "position": 8,
+                "length": 6
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "CZ",
+        "country_name": "Czech Republic",
+        "length": 24
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{18}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 8
+            },
+            "account_number": {
+                "position": 12,
+                "length": 10
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "DE",
+        "country_name": "Germany",
+        "length": 22
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{23}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "DJ",
+        "country_name": "Djibouti",
+        "length": 27
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{14}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 8,
+                "length": 10
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "DK",
+        "country_name": "Denmark",
+        "length": 18
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{4}[0-9]{20}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 8,
+                "length": 20
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "DO",
+        "country_name": "Dominican Republic",
+        "length": 28
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{22}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "DZ",
+        "country_name": "Algeria",
+        "length": 26
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{16}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 2
+            },
+            "account_number": {
+                "position": 8,
+                "length": 11
+            },
+            "branch_code": {
+                "position": 6,
+                "length": 2
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [
+                {
+                    "position": 19,
+                    "length": 1
+                }
+            ],
+            "constants": []
+        },
+        "country_code": "EE",
+        "country_name": "Estonia",
+        "length": 20
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{25}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 12,
+                "length": 17
+            },
+            "branch_code": {
+                "position": 8,
+                "length": 4
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "EG",
+        "country_name": "Egypt",
+        "length": 29
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{20}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 14,
+                "length": 10
+            },
+            "branch_code": {
+                "position": 8,
+                "length": 4
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [
+                {
+                    "position": 12,
+                    "length": 2
+                }
+            ],
+            "constants": []
+        },
+        "country_code": "ES",
+        "country_name": "Spain",
+        "length": 24
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{14}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 6
+            },
+            "account_number": {
+                "position": 10,
+                "length": 7
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [
+                {
+                    "position": 17,
+                    "length": 1
+                }
+            ],
+            "constants": []
+        },
+        "country_code": "FI",
+        "country_name": "Finland",
+        "length": 18
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{14}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 8,
+                "length": 9
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [
+                {
+                    "position": 17,
+                    "length": 1
+                }
+            ],
+            "constants": []
+        },
+        "country_code": "FO",
+        "country_name": "Faroe Islands",
+        "length": 18
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{10}[A-Za-z0-9]{11}[0-9]{2}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 5
+            },
+            "account_number": {
+                "position": 14,
+                "length": 11
+            },
+            "branch_code": {
+                "position": 9,
+                "length": 5
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [
+                {
+                    "position": 25,
+                    "length": 2
+                }
+            ],
+            "constants": []
+        },
+        "country_code": "FR",
+        "country_name": "France",
+        "length": 27
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{23}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "GA",
+        "country_name": "Gabon",
+        "length": 27
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{4}[0-9]{14}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 14,
+                "length": 8
+            },
+            "branch_code": {
+                "position": 8,
+                "length": 6
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "GB",
+        "country_name": "United Kingdom",
+        "length": 22
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Za-z0-9]{2}[0-9]{16}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 2
+            },
+            "account_number": {
+                "position": 6,
+                "length": 16
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "GE",
+        "country_name": "Georgia",
+        "length": 22
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{4}[A-Za-z0-9]{15}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 8,
+                "length": 15
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "GI",
+        "country_name": "Gibraltar",
+        "length": 23
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{14}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 8,
+                "length": 10
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "GL",
+        "country_name": "Greenland",
+        "length": 18
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{23}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "GQ",
+        "country_name": "Equatorial Guinea",
+        "length": 27
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{7}[A-Za-z0-9]{16}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 3
+            },
+            "account_number": {
+                "position": 11,
+                "length": 16
+            },
+            "branch_code": {
+                "position": 7,
+                "length": 4
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "GR",
+        "country_name": "Greece",
+        "length": 27
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Za-z0-9]{4}[A-Za-z0-9]{20}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 12,
+                "length": 16
+            },
+            "branch_code": null,
+            "account_type": {
+                "position": 10,
+                "length": 2
+            },
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": {
+                "position": 8,
+                "length": 2
+            },
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "GT",
+        "country_name": "Guatemala",
+        "length": 28
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Za-z0-9]{2}[0-9]{19}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "GW",
+        "country_name": "Guinea-Bissau",
+        "length": 25
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{4}[0-9]{20}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "HN",
+        "country_name": "Honduras",
+        "length": 28
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{17}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 7
+            },
+            "account_number": {
+                "position": 11,
+                "length": 10
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "HR",
+        "country_name": "Croatia",
+        "length": 21
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{24}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 3
+            },
+            "account_number": {
+                "position": 12,
+                "length": 15
+            },
+            "branch_code": {
+                "position": 7,
+                "length": 4
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [
+                {
+                    "position": 11,
+                    "length": 1
+                },
+                {
+                    "position": 27,
+                    "length": 1
+                }
+            ],
+            "constants": []
+        },
+        "country_code": "HU",
+        "country_name": "Hungary",
+        "length": 28
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Za-z0-9]{4}[0-9]{14}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 14,
+                "length": 8
+            },
+            "branch_code": {
+                "position": 8,
+                "length": 6
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "IE",
+        "country_name": "Ireland",
+        "length": 22
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{19}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 3
+            },
+            "account_number": {
+                "position": 10,
+                "length": 13
+            },
+            "branch_code": {
+                "position": 7,
+                "length": 3
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "IL",
+        "country_name": "Israel",
+        "length": 23
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Za-z0-9]{4}[0-9]{14}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": {
+                "position": 4,
+                "length": 18
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "IM",
+        "country_name": "Isle of Man",
+        "length": 22
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{4}[0-9]{15}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 11,
+                "length": 12
+            },
+            "branch_code": {
+                "position": 8,
+                "length": 3
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "IQ",
+        "country_name": "Iraq",
+        "length": 23
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Za-z0-9]{4}[0-9]{18}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": [
+                {
+                    "position": 4,
+                    "constant": "0",
+                    "pattern": "[.]{4}[0]{1}"
+                },
+                {
+                    "position": 7,
+                    "constant": "0",
+                    "pattern": "[.]{7}[0]{1}"
+                }
+            ]
+        },
+        "fields": {
+            "bank_code": {
+                "position": 5,
+                "length": 2
+            },
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": [
+                {
+                    "position": 4,
+                    "constant": ""
+                },
+                {
+                    "position": 7,
+                    "constant": ""
+                }
+            ]
+        },
+        "country_code": "IR",
+        "country_name": "Iran",
+        "length": 26
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{22}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 2
+            },
+            "account_number": {
+                "position": 10,
+                "length": 6
+            },
+            "branch_code": {
+                "position": 6,
+                "length": 2
+            },
+            "account_type": {
+                "position": 8,
+                "length": 2
+            },
+            "account_holder": {
+                "position": 16,
+                "length": 10
+            },
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "IS",
+        "country_name": "Iceland",
+        "length": 26
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{1}[0-9]{10}[A-Za-z0-9]{12}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 5,
+                "length": 5
+            },
+            "account_number": {
+                "position": 15,
+                "length": 12
+            },
+            "branch_code": {
+                "position": 10,
+                "length": 5
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [
+                {
+                    "position": 4,
+                    "length": 1
+                }
+            ],
+            "constants": []
+        },
+        "country_code": "IT",
+        "country_name": "Italy",
+        "length": 27
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{4}[0-9]{22}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 12,
+                "length": 18
+            },
+            "branch_code": {
+                "position": 8,
+                "length": 4
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "JO",
+        "country_name": "Jordan",
+        "length": 30
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{23}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "KM",
+        "country_name": "Comoros",
+        "length": 27
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{4}[A-Za-z0-9]{22}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 8,
+                "length": 22
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "KW",
+        "country_name": "Kuwait",
+        "length": 30
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{3}[A-Za-z0-9]{13}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 3
+            },
+            "account_number": {
+                "position": 7,
+                "length": 13
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "KZ",
+        "country_name": "Kazakhstan",
+        "length": 20
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{4}[A-Za-z0-9]{20}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 8,
+                "length": 20
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "LB",
+        "country_name": "Lebanon",
+        "length": 28
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{4}[A-Za-z0-9]{24}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 8,
+                "length": 24
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "LC",
+        "country_name": "Saint Lucia",
+        "length": 32
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{5}[A-Za-z0-9]{12}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 5
+            },
+            "account_number": {
+                "position": 9,
+                "length": 12
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "LI",
+        "country_name": "Liechtenstein",
+        "length": 21
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{16}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 5
+            },
+            "account_number": {
+                "position": 9,
+                "length": 11
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "LT",
+        "country_name": "Lithuania",
+        "length": 20
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{3}[A-Za-z0-9]{13}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 3
+            },
+            "account_number": {
+                "position": 7,
+                "length": 13
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "LU",
+        "country_name": "Luxembourg",
+        "length": 20
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{4}[A-Za-z0-9]{13}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 8,
+                "length": 13
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "LV",
+        "country_name": "Latvia",
+        "length": 21
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{21}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 3
+            },
+            "account_number": {
+                "position": 10,
+                "length": 15
+            },
+            "branch_code": {
+                "position": 7,
+                "length": 3
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "LY",
+        "country_name": "Libya",
+        "length": 25
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{24}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "MA",
+        "country_name": "Morocco",
+        "length": 28
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{10}[A-Za-z0-9]{11}[0-9]{2}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 5
+            },
+            "account_number": {
+                "position": 14,
+                "length": 11
+            },
+            "branch_code": {
+                "position": 9,
+                "length": 5
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [
+                {
+                    "position": 25,
+                    "length": 2
+                }
+            ],
+            "constants": []
+        },
+        "country_code": "MC",
+        "country_name": "Monaco",
+        "length": 27
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Za-z0-9]{2}[A-Za-z0-9]{18}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 2
+            },
+            "account_number": {
+                "position": 6,
+                "length": 18
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "MD",
+        "country_name": "Moldova",
+        "length": 24
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{18}",
+            "check_digit": "^.{2}25",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 3
+            },
+            "account_number": {
+                "position": 7,
+                "length": 13
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [
+                {
+                    "position": 20,
+                    "length": 2
+                }
+            ],
+            "constants": []
+        },
+        "country_code": "ME",
+        "country_name": "Montenegro",
+        "length": 22
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{23}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "MG",
+        "country_name": "Madagascar",
+        "length": 27
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{3}[A-Za-z0-9]{10}[0-9]{2}",
+            "check_digit": "^.{2}07",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 3
+            },
+            "account_number": {
+                "position": 7,
+                "length": 10
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [
+                {
+                    "position": 17,
+                    "length": 2
+                }
+            ],
+            "constants": []
+        },
+        "country_code": "MK",
+        "country_name": "North Macedonia",
+        "length": 19
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Za-z0-9]{2}[0-9]{22}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "ML",
+        "country_name": "Mali",
+        "length": 28
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{23}",
+            "check_digit": "^.{2}13",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 5
+            },
+            "account_number": {
+                "position": 14,
+                "length": 11
+            },
+            "branch_code": {
+                "position": 9,
+                "length": 5
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [
+                {
+                    "position": 25,
+                    "length": 2
+                }
+            ],
+            "constants": []
+        },
+        "country_code": "MR",
+        "country_name": "Mauritania",
+        "length": 27
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{4}[0-9]{5}[A-Za-z0-9]{18}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 13,
+                "length": 18
+            },
+            "branch_code": {
+                "position": 8,
+                "length": 5
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "MT",
+        "country_name": "Malta",
+        "length": 31
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{4}[0-9]{19}[A-Z]{3}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": [
+                {
+                    "position": 24,
+                    "constant": "000",
+                    "pattern": "[.]{24}[000]{3}"
+                }
+            ]
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 6
+            },
+            "account_number": {
+                "position": 12,
+                "length": 12
+            },
+            "branch_code": {
+                "position": 10,
+                "length": 2
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": {
+                "position": 27,
+                "length": 3
+            },
+            "country_check_digits": [],
+            "constants": [
+                {
+                    "position": 24,
+                    "constant": ""
+                }
+            ]
+        },
+        "country_code": "MU",
+        "country_name": "Mauritius",
+        "length": 30
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{21}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "MZ",
+        "country_name": "Mozambique",
+        "length": 25
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{2}[0-9]{22}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "NE",
+        "country_name": "Niger",
+        "length": 28
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{4}[0-9]{24}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "NI",
+        "country_name": "Nicaragua",
+        "length": 32
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{4}[0-9]{10}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 8,
+                "length": 10
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "NL",
+        "country_name": "Netherlands",
+        "length": 18
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{11}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 8,
+                "length": 6
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [
+                {
+                    "position": 14,
+                    "length": 1
+                }
+            ],
+            "constants": []
+        },
+        "country_code": "NO",
+        "country_name": "Norway",
+        "length": 15
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Za-z0-9]{4}[0-9]{16}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 8,
+                "length": 16
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "PK",
+        "country_name": "Pakistan",
+        "length": 24
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{24}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 3
+            },
+            "account_number": {
+                "position": 12,
+                "length": 16
+            },
+            "branch_code": {
+                "position": 7,
+                "length": 4
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [
+                {
+                    "position": 11,
+                    "length": 1
+                }
+            ],
+            "constants": []
+        },
+        "country_code": "PL",
+        "country_name": "Poland",
+        "length": 28
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Za-z0-9]{4}[0-9]{21}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 8,
+                "length": 21
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "PS",
+        "country_name": "Palestinian territories",
+        "length": 29
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{21}",
+            "check_digit": "^.{2}50",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 12,
+                "length": 11
+            },
+            "branch_code": {
+                "position": 8,
+                "length": 4
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [
+                {
+                    "position": 23,
+                    "length": 2
+                }
+            ],
+            "constants": []
+        },
+        "country_code": "PT",
+        "country_name": "Portugal",
+        "length": 25
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{4}[A-Za-z0-9]{21}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 8,
+                "length": 21
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "QA",
+        "country_name": "Qatar",
+        "length": 29
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{4}[A-Za-z0-9]{16}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 8,
+                "length": 16
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "RO",
+        "country_name": "Romania",
+        "length": 24
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{18}",
+            "check_digit": "^.{2}35",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 3
+            },
+            "account_number": {
+                "position": 7,
+                "length": 13
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [
+                {
+                    "position": 20,
+                    "length": 2
+                }
+            ],
+            "constants": []
+        },
+        "country_code": "RS",
+        "country_name": "Serbia",
+        "length": 22
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{2}[A-Za-z0-9]{18}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 2
+            },
+            "account_number": {
+                "position": 6,
+                "length": 18
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "SA",
+        "country_name": "Saudi Arabia",
+        "length": 24
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{4}[0-9]{20}[A-Z]{3}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 6
+            },
+            "account_number": {
+                "position": 12,
+                "length": 16
+            },
+            "branch_code": {
+                "position": 10,
+                "length": 2
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": {
+                "position": 28,
+                "length": 3
+            },
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "SC",
+        "country_name": "Seychelles",
+        "length": 31
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{20}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 3
+            },
+            "account_number": {
+                "position": 7,
+                "length": 17
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "SE",
+        "country_name": "Sweden",
+        "length": 24
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{15}",
+            "check_digit": "^.{2}56",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 2
+            },
+            "account_number": {
+                "position": 9,
+                "length": 8
+            },
+            "branch_code": {
+                "position": 6,
+                "length": 3
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [
+                {
+                    "position": 17,
+                    "length": 2
+                }
+            ],
+            "constants": []
+        },
+        "country_code": "SI",
+        "country_name": "Slovenia",
+        "length": 19
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{20}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 8,
+                "length": 16
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "SK",
+        "country_name": "Slovakia",
+        "length": 24
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{1}[0-9]{10}[A-Za-z0-9]{12}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 5,
+                "length": 5
+            },
+            "account_number": {
+                "position": 15,
+                "length": 12
+            },
+            "branch_code": {
+                "position": 10,
+                "length": 5
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [
+                {
+                    "position": 4,
+                    "length": 1
+                }
+            ],
+            "constants": []
+        },
+        "country_code": "SM",
+        "country_name": "San Marino",
+        "length": 27
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{1}[0-9]{23}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "SN",
+        "country_name": "Senegal",
+        "length": 28
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{21}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 12,
+                "length": 13
+            },
+            "branch_code": {
+                "position": 8,
+                "length": 4
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "ST",
+        "country_name": "Sao Tome and Principe",
+        "length": 25
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{4}[0-9]{20}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 8,
+                "length": 20
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "SV",
+        "country_name": "El Salvador",
+        "length": 28
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{23}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "TD",
+        "country_name": "Chad",
+        "length": 27
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Z]{2}[0-9]{22}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": null,
+            "account_number": null,
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "TG",
+        "country_name": "Togo",
+        "length": 28
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{19}",
+            "check_digit": "^.{2}38",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 3
+            },
+            "account_number": {
+                "position": 7,
+                "length": 14
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [
+                {
+                    "position": 21,
+                    "length": 2
+                }
+            ],
+            "constants": []
+        },
+        "country_code": "TL",
+        "country_name": "East Timor",
+        "length": 23
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{20}",
+            "check_digit": "^.{2}59",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 2
+            },
+            "account_number": {
+                "position": 9,
+                "length": 13
+            },
+            "branch_code": {
+                "position": 6,
+                "length": 3
+            },
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [
+                {
+                    "position": 22,
+                    "length": 2
+                }
+            ],
+            "constants": []
+        },
+        "country_code": "TN",
+        "country_name": "Tunisia",
+        "length": 24
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{5}[A-Za-z0-9]{17}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": [
+                {
+                    "position": 9,
+                    "constant": "0",
+                    "pattern": "[.]{9}[0]{1}"
+                }
+            ]
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 5
+            },
+            "account_number": {
+                "position": 10,
+                "length": 16
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": [
+                {
+                    "position": 9,
+                    "constant": ""
+                }
+            ]
+        },
+        "country_code": "TR",
+        "country_name": "Turkey",
+        "length": 26
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{6}[A-Za-z0-9]{19}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 6
+            },
+            "account_number": {
+                "position": 10,
+                "length": 19
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "UA",
+        "country_name": "Ukraine",
+        "length": 29
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{3}[0-9]{15}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 3
+            },
+            "account_number": {
+                "position": 7,
+                "length": 15
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "VA",
+        "country_name": "Vatican City",
+        "length": 22
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[A-Za-z0-9]{4}[0-9]{16}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 8,
+                "length": 16
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "VG",
+        "country_name": "Virgin Islands,British",
+        "length": 24
+    },
+    {
+        "patterns": {
+            "bban": "^.{4}[0-9]{4}[0-9]{10}[0-9]{2}",
+            "check_digit": "^.{2}[0-9]{2}",
+            "constants": []
+        },
+        "fields": {
+            "bank_code": {
+                "position": 4,
+                "length": 4
+            },
+            "account_number": {
+                "position": 8,
+                "length": 12
+            },
+            "branch_code": null,
+            "account_type": null,
+            "account_holder": null,
+            "balance_account_number": null,
+            "owner_account_number": null,
+            "currency_code": null,
+            "country_check_digits": [],
+            "constants": []
+        },
+        "country_code": "XK",
+        "country_name": "Kosovo",
+        "length": 20
+    }
+]
