@@ -2,38 +2,51 @@ syntax = "proto3";
 
 package specs;
 
+message IbanSpecConstant {
+    uint32 position = 1;
+    string constant = 3;
 
+}
+
+message IbanSpecConstantPattern {
+    uint32 position = 1;
+    string pattern = 2;
+    string constant = 3;
+
+}
+
+message IbanSpecPatterns {
+    string check_digit = 1;
+    string bban = 2;
+    repeated IbanSpecConstantPattern constants = 3;
+}
+
+/* Represents a  piece of information in a Iban string ex. bank number, currency code
+ */
+message IbanSpecData {
+    uint32 position = 1; // the information start position in the string
+    uint32 length = 2; // length of the information
+}
+
+message IbanSpecFields {
+    IbanSpecData bank_code = 1;
+    IbanSpecData account_number = 2;
+    IbanSpecData branch_code = 3;
+    IbanSpecData account_type = 4;
+    IbanSpecData account_holder = 5;
+    IbanSpecData balance_account_number = 6;
+    IbanSpecData owner_account_number = 7;
+    IbanSpecData currency_code  = 8;
+    repeated IbanSpecData country_check_digits = 9;
+    repeated IbanSpecConstant constants = 10;
+}
 
 message IbanSpec {
     string country_code = 1;
     string country_name = 2;
-    int32 length = 3;
-
-    message Patterns {
-        string check_digit = 1;
-        string bban = 2;
-        string constants = 3;
-    }
-    
-    message Fields {
-        
-        message DataLocation {
-            int32 position = 1;
-            int32 length = 2;
-        }
-        DataLocation bank_code = 1;
-        DataLocation account_number = 2;
-        DataLocation branch_code = 3;
-        DataLocation account_type = 4;
-        DataLocation account_holder = 5;
-        DataLocation balance_account_number = 6;
-        DataLocation currency_code  = 7;
-        repeated DataLocation country_check_codes = 8;
-        repeated DataLocation constants = 9;
-    }
-
-    Patterns patterns = 4;
-    Fields fields = 5;
+    uint32 length = 3;
+    IbanSpecPatterns patterns = 5;
+    IbanSpecFields fields = 6;
 }
 
 message IbansSpecs {

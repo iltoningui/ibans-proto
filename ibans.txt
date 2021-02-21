@@ -1,4 +1,34 @@
-Alpha|Country|Size|BBAN Format|IBAN Fields
+## Alpha is country code
+#------------------------
+#
+## Country is the country name
+#------------------------------
+#
+## Size IBAN is the valid IBAN length
+#-------------------------------------
+#
+## BBAN Format
+#--------------
+# n = Represents a numeric character
+# c = Represents a alphanumeric character
+# a = Represents an alphabetic character
+#
+## IBAN Fields meanings
+#-----------------------
+# b = National bank code
+# a = Balance account number
+# k = IBAN check digits
+# s = Branch code
+# x = National check digit
+# i = Account holder's number
+# c = Account number
+# t = Account type (cheque account, savings account etc.)
+# o = Owner account number
+# m = Currency code
+# n = Unspecified info
+# 0 = Constant Value
+#
+#Alpha|Country|Size|BBAN Format|IBAN Fields
 AD|Andorra|24|8n,12c|ADkk bbbb ssss cccc cccc cccc
 AE|United Arab Emirates|23|3n,16n|AEkk bbb c cccc cccc cccc ccc
 AL|Albania|28|8n,16c|ALkk bbb s sss x cccc cccc cccc cccc
@@ -7,17 +37,17 @@ AT|Austria|20|16n|ATkk bbbb b ccc cccc cccc
 AZ|Azerbaijan|28|4c,20n|AZkk bbbb cccc cccc cccc cccc cccc
 BA|Bosnia and Herzegovina|20|16n|BA39 bbb s ss cc cccc cc xx
 BE|Belgium|16|12n|BEkk bbb c cccc cc xx
-BF|Burkina Faso|28|2c,22n|BFkk ccnn nnnn nnnn nnnn nnnn nnnn
+BF|Burkina Faso|28|2c,22n|BFkk nnnn nnnn nnnn nnnn nnnn nnnn
 BG|Bulgaria|22|4a,6n,8c|BGkk bbbb ssss tt cc cccc cc
 BH|Bahrain|22|4a,14c|BHkk bbbb cccc cccc cccc cc
 BI|Burundi|16|12n|BIkk nnnn nnnn nnnn
-BJ|Benin|28|2c,22n|BJkk ccnn nnnn nnnn nnnn nnnn nnnn
-BR|Brazil|29|23n,1a,1c|BRkk bbbb bbbb ssss s ccc cccc ccc t n
+BJ|Benin|28|2c,22n|BJkk nnnn nnnn nnnn nnnn nnnn nnnn
+BR|Brazil|29|23n,1a,1c|BRkk bbbb bbbb ssss s ccc cccc ccc t o
 BY|Belarus|28|4c,4n,16c|BYkk bbbb aaaa cccc cccc cccc cccc
 CF|Central African Republic|27|23n|CFkk nnnn nnnn nnnn nnnn nnnn nnn
 CG|Congo,Republic of the|27|23n|CGkk nnnn nnnn nnnn nnnn nnnn nnn
 CH|Switzerland|21|5n,12c|CHkk bbbb b ccc cccc cccc c
-CI|Côte d'Ivoire|28|1a,23n|CIkk annn nnnn nnnn nnnn nnnn nnnn
+CI|Côte d'Ivoire|28|1a,23n|CIkk nnnn nnnn nnnn nnnn nnnn nnnn
 CM|Cameroon|27|23n|CMkk nnnn nnnn nnnn nnnn nnnn nnn
 CR|Costa Rica|22|18n|CRkk 0 bbb cccc cccc cccc cc
 CV|Cabo Verde|25|21n|CVkk nnnn nnnn nnnn nnnn nnnn n
@@ -42,8 +72,8 @@ GL|Greenland|18|14n|GLkk bbbb cccc cccc cc
 GQ|Equatorial Guinea|27|23n|GQkk nnnn nnnn nnnn nnnn nnnn nnn
 GR|Greece|27|7n,16c|GRkk bbb s sss c cccc cccc cccc ccc
 GT|Guatemala|28|4c,20c|GTkk bbbb mm tt cccc cccc cccc cccc
-GW|Guinea-Bissau|25|2c,19n|GWkk ccnn nnnn nnnn nnnn nnnn n
-HN|Honduras|28|4a,20n|HNkk aaaa nnnn nnnn nnnn nnnn nnnn
+GW|Guinea-Bissau|25|2c,19n|GWkk nnnn nnnn nnnn nnnn nnnn n
+HN|Honduras|28|4a,20n|HNkk nnnn nnnn nnnn nnnn nnnn nnnn
 HR|Croatia|21|17n|HRkk bbbb bbb c cccc cccc c
 HU|Hungary|28|24n|HUkk bbb s sss x cccc cccc cccc ccc x
 IE|Ireland|22|4c,14n|IEkk bbbb ssss ss cc cccc cc
@@ -70,13 +100,13 @@ MD|Moldova|24|2c,18c|MDkk bb cc cccc cccc cccc cccc
 ME|Montenegro|22|18n|ME25 bbb c cccc cccc cccc xx
 MG|Madagascar|27|23n|MGkk nnnn nnnn nnnn nnnn nnnn nnn
 MK|North Macedonia|19|3n,10c,2n|MK07 bbb c cccc cccc c xx
-ML|Mali|28|2c,22n|MLkk annn nnnn nnnn nnnn nnnn nnnn
+ML|Mali|28|2c,22n|MLkk nnnn nnnn nnnn nnnn nnnn nnnn
 MR|Mauritania|27|23n|MR13 bbbb b sss ss cc cccc cccc c xx
 MT|Malta|31|4a,5n,18c|MTkk bbbb ssss s ccc cccc cccc cccc ccc
 MU|Mauritius|30|4a,19n,3a|MUkk bbbb bb ss cccc cccc cccc 000m mm
 MZ|Mozambique|25|21n|MZkk nnnn nnnn nnnn nnnn nnnn n
-NE|Niger|28|2a,22n|NEkk aann nnnn nnnn nnnn nnnn nnnn
-NI|Nicaragua|32|4a,24n|NIkk aaaa nnnn nnnn nnnn nnnn nnnn nnnn
+NE|Niger|28|2a,22n|NEkk nnnn nnnn nnnn nnnn nnnn nnnn
+NI|Nicaragua|32|4a,24n|NIkk nnnn nnnn nnnn nnnn nnnn nnnn nnnn
 NL|Netherlands|18|4a,10n|NLkk bbbb cccc cccc cc
 NO|Norway|15|11n|NOkk bbbb cccc cc x
 PK|Pakistan|24|4c,16n|PKkk bbbb cccc cccc cccc cccc
@@ -87,16 +117,16 @@ QA|Qatar|29|4a,21c|QAkk bbbb cccc cccc cccc cccc cccc c
 RO|Romania|24|4a,16c|ROkk bbbb cccc cccc cccc cccc
 RS|Serbia|22|18n|RS35 bbb c cccc cccc cccc xx
 SA|Saudi Arabia|24|2n,18c|SAkk bb cc cccc cccc cccc cccc
-SC|Seychelles|31|4a,20n,3a|SCkk bbbb bb ss nnnn nnnn nnnn nnnn mmm
+SC|Seychelles|31|4a,20n,3a|SCkk bbbb bb ss cccc cccc cccc cccc mmm
 SE|Sweden|24|20n|SEkk bbb c cccc cccc cccc cccc
 SI|Slovenia|19|15n|SI56 bb ss s ccc cccc c xx
 SK|Slovakia|24|20n|SKkk bbbb cccc cc cc cccc cccc
 SM|San Marino|27|1a,10n,12c|SMkk x bbb bb ss sss c cccc cccc ccc
-SN|Senegal|28|1a,23n|SNkk annn nnnn nnnn nnnn nnnn nnnn
+SN|Senegal|28|1a,23n|SNkk nnnn nnnn nnnn nnnn nnnn nnnn
 ST|Sao Tome and Principe|25|21n|STkk bbbb ssss cccc cccc cccc c
 SV|El Salvador|28|4a,20n|SVkk bbbb cccc cccc cccc cccc cccc
 TD|Chad|27|23n|TDkk nnnn nnnn nnnn nnnn nnnn nnn
-TG|Togo|28|2a,22n|TGkk aann nnnn nnnn nnnn nnnn nnnn
+TG|Togo|28|2a,22n|TGkk nnnn nnnn nnnn nnnn nnnn nnnn
 TL|East Timor|23|19n|TL38 bbb c cccc cccc cccc c xx
 TN|Tunisia|24|20n|TN59 bb ss s ccc cccc cccc cc xx
 TR|Turkey|26|5n,17c|TRkk bbbb b 0 cc cccc cccc cccc cc
