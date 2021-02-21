@@ -1,12 +1,1 @@
 syntax = "proto3";
-
-message Bank {
-    string name = 2;
-    string code = 1;
-    string initials = 3;
-    string swift = 4;
-}
-
-message Banks {
-    repeated Bank list = 1;
-}
