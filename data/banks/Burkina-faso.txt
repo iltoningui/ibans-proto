@@ -1,0 +1,2 @@
+#Country Code|Bank Code|Bank Name|Initials|SWIFT/BIC
+BF|BCQ4162|Bank of Africa||AFRIBFBF
