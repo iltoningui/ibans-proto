@@ -1,0 +1,37 @@
+## Bank Code - The bank national identification code
+#----------------------------------------------------
+#
+## Bank Name - The bank name
+#----------------------------
+#
+## Initials - Bank Initials
+#---------------------------
+#
+## Swift - Bank SWIFT code
+#--------------------------
+#
+#Country Code|Bank Code|Bank Name|Initials|SWIFT/BIC
+AO|0040|Banco Angolano de Investimentos, S.A.|BAI|BAIPAOLU
+AO|0053|Banco Angolano de Negócios e Comércio, S.A.|BANC|ANCEAOLU
+AO|0048|Banco BAI Micro Finanças, S.A.|BMF|NOSAAOLU
+AO|0051|Banco BIC, S.A.|BIC|BCCBAOLU
+AO|0004|Banco Caixa Geral Totta de Angola, S.A.|BCGTA|BCGTAOLU
+AO|0043|Banco Comercial Angolano, S.A.|BCA|COMLAOLU
+AO|0059|Banco Comercial do Huambo, S.A.|BCH|BCHUAOLU
+AO|0005|Banco de Comércio e Indústria, S.A.|BCI|BCIDAOLU
+AO|0054|Banco de Desenvolvimento de Angola, S.A.|BDA|BDAAAOLU
+AO|0006|Banco de Fomento Angola, S.A.|BFA|BMFXAOLU
+AO|0052|Banco de Negócios Internacional, S.A.|BNI|BNICAOLU
+AO|0010|Banco de Poupança e Crédito, S.A.|BPC|BPCLAOLU
+AO|0061|Banco de Poupança e Promoção Habitacional, S.A.|BPPH|
+AO|0045|Banco Espírito Santo Angola, S.A.|BESA|BESCAOLU
+AO|0047|Banco Keve, S.A.|KEVE|BRDKAOLU
+AO|0057|Banco Kwanza Investimento, S.A.|BKI|BQCAAOLU
+AO|0034|Banco Millennium Angola, S.A.|BMA|
+AO|0055|Banco Privado Atlântico, S.A.|BPA|PRTLAOLU
+AO|0044|Banco Sol, S.A.|BSOL|SOLOAOLU
+AO|0062|Banco Valor, S.A.|BVB|BVBXAOLU
+AO|0056|Banco VTB África, S.A.|VTB|VTBLAOLU
+AO|0058|Finibanco Angola, S.A.|FNB|FBCOAOLU
+AO|0060|Standard Bank de Angola, S.A.|SBA|SBICAOLU
+AO|0063|Standard Chartered Bank de Angola, S.A.|SCBA|
