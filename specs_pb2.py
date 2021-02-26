@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   syntax='proto3',
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_pb=b'\n\x0bspecs.proto\x12\x05specs\"C\n\x04\x42\x61nk\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x0c\n\x04\x63ode\x18\x01 \x01(\t\x12\x10\n\x08initials\x18\x03 \x01(\t\x12\r\n\x05swift\x18\x04 \x01(\t\"6\n\x10IbanSpecConstant\x12\x10\n\x08position\x18\x01 \x01(\r\x12\x10\n\x08\x63onstant\x18\x03 \x01(\t\"N\n\x17IbanSpecConstantPattern\x12\x10\n\x08position\x18\x01 \x01(\r\x12\x0f\n\x07pattern\x18\x02 \x01(\t\x12\x10\n\x08\x63onstant\x18\x03 \x01(\t\"h\n\x10IbanSpecPatterns\x12\x13\n\x0b\x63heck_digit\x18\x01 \x01(\t\x12\x0c\n\x04\x62\x62\x61n\x18\x02 \x01(\t\x12\x31\n\tconstants\x18\x03 \x03(\x0b\x32\x1e.specs.IbanSpecConstantPattern\"0\n\x0cIbanSpecData\x12\x10\n\x08position\x18\x01 \x01(\r\x12\x0e\n\x06length\x18\x02 \x01(\r\"\xa6\x03\n\x0eIbanSpecFields\x12&\n\tbank_code\x18\x01 \x01(\x0b\x32\x13.specs.IbanSpecData\x12+\n\x0e\x61\x63\x63ount_number\x18\x02 \x01(\x0b\x32\x13.specs.IbanSpecData\x12(\n\x0b\x62ranch_code\x18\x03 \x01(\x0b\x32\x13.specs.IbanSpecData\x12)\n\x0c\x61\x63\x63ount_type\x18\x04 \x01(\x0b\x32\x13.specs.IbanSpecData\x12+\n\x0e\x61\x63\x63ount_holder\x18\x05 \x01(\x0b\x32\x13.specs.IbanSpecData\x12\x33\n\x16\x62\x61lance_account_number\x18\x06 \x01(\x0b\x32\x13.specs.IbanSpecData\x12*\n\rcurrency_code\x18\x07 \x01(\x0b\x32\x13.specs.IbanSpecData\x12\x30\n\x13\x63ountry_check_codes\x18\x08 \x03(\x0b\x32\x13.specs.IbanSpecData\x12*\n\tconstants\x18\t \x03(\x0b\x32\x17.specs.IbanSpecConstant\"\x98\x01\n\x08IbanSpec\x12\x14\n\x0c\x63ountry_code\x18\x01 \x01(\t\x12\x14\n\x0c\x63ountry_name\x18\x02 \x01(\t\x12\x0e\n\x06length\x18\x03 \x01(\r\x12)\n\x08patterns\x18\x05 \x01(\x0b\x32\x17.specs.IbanSpecPatterns\x12%\n\x06\x66ields\x18\x06 \x01(\x0b\x32\x15.specs.IbanSpecFields\"+\n\nIbansSpecs\x12\x1d\n\x04list\x18\x01 \x03(\x0b\x32\x0f.specs.IbanSpec\"\"\n\x05\x42\x61nks\x12\x19\n\x04list\x18\x01 \x03(\x0b\x32\x0b.specs.Bankb\x06proto3'
+  serialized_pb=b'\n\x0bspecs.proto\x12\x05specs\"C\n\x04\x42\x61nk\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x0c\n\x04\x63ode\x18\x01 \x01(\t\x12\x10\n\x08initials\x18\x03 \x01(\t\x12\r\n\x05swift\x18\x04 \x01(\t\"6\n\x10IbanSpecConstant\x12\x10\n\x08position\x18\x01 \x01(\r\x12\x10\n\x08\x63onstant\x18\x03 \x01(\t\"N\n\x17IbanSpecConstantPattern\x12\x10\n\x08position\x18\x01 \x01(\r\x12\x0f\n\x07pattern\x18\x02 \x01(\t\x12\x10\n\x08\x63onstant\x18\x03 \x01(\t\"h\n\x10IbanSpecPatterns\x12\x13\n\x0b\x63heck_digit\x18\x01 \x01(\t\x12\x0c\n\x04\x62\x62\x61n\x18\x02 \x01(\t\x12\x31\n\tconstants\x18\x03 \x03(\x0b\x32\x1e.specs.IbanSpecConstantPattern\"0\n\x0cIbanSpecData\x12\x10\n\x08position\x18\x01 \x01(\r\x12\x0e\n\x06length\x18\x02 \x01(\r\"\xda\x03\n\x0eIbanSpecFields\x12&\n\tbank_code\x18\x01 \x01(\x0b\x32\x13.specs.IbanSpecData\x12+\n\x0e\x61\x63\x63ount_number\x18\x02 \x01(\x0b\x32\x13.specs.IbanSpecData\x12(\n\x0b\x62ranch_code\x18\x03 \x01(\x0b\x32\x13.specs.IbanSpecData\x12)\n\x0c\x61\x63\x63ount_type\x18\x04 \x01(\x0b\x32\x13.specs.IbanSpecData\x12+\n\x0e\x61\x63\x63ount_holder\x18\x05 \x01(\x0b\x32\x13.specs.IbanSpecData\x12\x33\n\x16\x62\x61lance_account_number\x18\x06 \x01(\x0b\x32\x13.specs.IbanSpecData\x12*\n\rcurrency_code\x18\x07 \x01(\x0b\x32\x13.specs.IbanSpecData\x12\x31\n\x14owner_account_number\x18\x08 \x01(\x0b\x32\x13.specs.IbanSpecData\x12\x31\n\x14\x63ountry_check_digits\x18\t \x03(\x0b\x32\x13.specs.IbanSpecData\x12*\n\tconstants\x18\n \x03(\x0b\x32\x17.specs.IbanSpecConstant\"\xab\x01\n\x08IbanSpec\x12\x14\n\x0c\x63ountry_code\x18\x01 \x01(\t\x12\x14\n\x0c\x63ountry_name\x18\x02 \x01(\t\x12\x0e\n\x06length\x18\x03 \x01(\r\x12\x11\n\tspaces_at\x18\x04 \x03(\r\x12)\n\x08patterns\x18\x05 \x01(\x0b\x32\x17.specs.IbanSpecPatterns\x12%\n\x06\x66ields\x18\x06 \x01(\x0b\x32\x15.specs.IbanSpecFields\"x\n\nIbansSpecs\x12+\n\x05specs\x18\x01 \x03(\x0b\x32\x1c.specs.IbansSpecs.SpecsEntry\x1a=\n\nSpecsEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\x1e\n\x05value\x18\x02 \x01(\x0b\x32\x0f.specs.IbanSpec:\x02\x38\x01\"j\n\x05\x42\x61nks\x12&\n\x05\x62\x61nks\x18\x01 \x03(\x0b\x32\x17.specs.Banks.BanksEntry\x1a\x39\n\nBanksEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\x1a\n\x05value\x18\x02 \x01(\x0b\x32\x0b.specs.Bank:\x02\x38\x01\x62\x06proto3'
 )
 
 
@@ -306,15 +306,22 @@ _IBANSPECFIELDS = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='country_check_codes', full_name='specs.IbanSpecFields.country_check_codes', index=7,
-      number=8, type=11, cpp_type=10, label=3,
+      name='owner_account_number', full_name='specs.IbanSpecFields.owner_account_number', index=7,
+      number=8, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='country_check_digits', full_name='specs.IbanSpecFields.country_check_digits', index=8,
+      number=9, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='constants', full_name='specs.IbanSpecFields.constants', index=8,
-      number=9, type=11, cpp_type=10, label=3,
+      name='constants', full_name='specs.IbanSpecFields.constants', index=9,
+      number=10, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -332,7 +339,7 @@ _IBANSPECFIELDS = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=384,
-  serialized_end=806,
+  serialized_end=858,
 )
 
 
@@ -366,14 +373,21 @@ _IBANSPEC = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='patterns', full_name='specs.IbanSpec.patterns', index=3,
+      name='spaces_at', full_name='specs.IbanSpec.spaces_at', index=3,
+      number=4, type=13, cpp_type=3, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='patterns', full_name='specs.IbanSpec.patterns', index=4,
       number=5, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='fields', full_name='specs.IbanSpec.fields', index=4,
+      name='fields', full_name='specs.IbanSpec.fields', index=5,
       number=6, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
@@ -391,10 +405,48 @@ _IBANSPEC = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=809,
-  serialized_end=961,
+  serialized_start=861,
+  serialized_end=1032,
 )
 
+
+_IBANSSPECS_SPECSENTRY = _descriptor.Descriptor(
+  name='SpecsEntry',
+  full_name='specs.IbansSpecs.SpecsEntry',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  create_key=_descriptor._internal_create_key,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='key', full_name='specs.IbansSpecs.SpecsEntry.key', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='value', full_name='specs.IbansSpecs.SpecsEntry.value', index=1,
+      number=2, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=b'8\001',
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=1093,
+  serialized_end=1154,
+)
 
 _IBANSSPECS = _descriptor.Descriptor(
   name='IbansSpecs',
@@ -405,9 +457,48 @@ _IBANSSPECS = _descriptor.Descriptor(
   create_key=_descriptor._internal_create_key,
   fields=[
     _descriptor.FieldDescriptor(
-      name='list', full_name='specs.IbansSpecs.list', index=0,
+      name='specs', full_name='specs.IbansSpecs.specs', index=0,
       number=1, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+  ],
+  extensions=[
+  ],
+  nested_types=[_IBANSSPECS_SPECSENTRY, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=1034,
+  serialized_end=1154,
+)
+
+
+_BANKS_BANKSENTRY = _descriptor.Descriptor(
+  name='BanksEntry',
+  full_name='specs.Banks.BanksEntry',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  create_key=_descriptor._internal_create_key,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='key', full_name='specs.Banks.BanksEntry.key', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='value', full_name='specs.Banks.BanksEntry.value', index=1,
+      number=2, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
@@ -417,16 +508,15 @@ _IBANSSPECS = _descriptor.Descriptor(
   nested_types=[],
   enum_types=[
   ],
-  serialized_options=None,
+  serialized_options=b'8\001',
   is_extendable=False,
   syntax='proto3',
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=963,
-  serialized_end=1006,
+  serialized_start=1205,
+  serialized_end=1262,
 )
-
 
 _BANKS = _descriptor.Descriptor(
   name='Banks',
@@ -437,7 +527,7 @@ _BANKS = _descriptor.Descriptor(
   create_key=_descriptor._internal_create_key,
   fields=[
     _descriptor.FieldDescriptor(
-      name='list', full_name='specs.Banks.list', index=0,
+      name='banks', full_name='specs.Banks.banks', index=0,
       number=1, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
@@ -446,7 +536,7 @@ _BANKS = _descriptor.Descriptor(
   ],
   extensions=[
   ],
-  nested_types=[],
+  nested_types=[_BANKS_BANKSENTRY, ],
   enum_types=[
   ],
   serialized_options=None,
@@ -455,8 +545,8 @@ _BANKS = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1008,
-  serialized_end=1042,
+  serialized_start=1156,
+  serialized_end=1262,
 )
 
 _IBANSPECPATTERNS.fields_by_name['constants'].message_type = _IBANSPECCONSTANTPATTERN
@@ -467,12 +557,17 @@ _IBANSPECFIELDS.fields_by_name['account_type'].message_type = _IBANSPECDATA
 _IBANSPECFIELDS.fields_by_name['account_holder'].message_type = _IBANSPECDATA
 _IBANSPECFIELDS.fields_by_name['balance_account_number'].message_type = _IBANSPECDATA
 _IBANSPECFIELDS.fields_by_name['currency_code'].message_type = _IBANSPECDATA
-_IBANSPECFIELDS.fields_by_name['country_check_codes'].message_type = _IBANSPECDATA
+_IBANSPECFIELDS.fields_by_name['owner_account_number'].message_type = _IBANSPECDATA
+_IBANSPECFIELDS.fields_by_name['country_check_digits'].message_type = _IBANSPECDATA
 _IBANSPECFIELDS.fields_by_name['constants'].message_type = _IBANSPECCONSTANT
 _IBANSPEC.fields_by_name['patterns'].message_type = _IBANSPECPATTERNS
 _IBANSPEC.fields_by_name['fields'].message_type = _IBANSPECFIELDS
-_IBANSSPECS.fields_by_name['list'].message_type = _IBANSPEC
-_BANKS.fields_by_name['list'].message_type = _BANK
+_IBANSSPECS_SPECSENTRY.fields_by_name['value'].message_type = _IBANSPEC
+_IBANSSPECS_SPECSENTRY.containing_type = _IBANSSPECS
+_IBANSSPECS.fields_by_name['specs'].message_type = _IBANSSPECS_SPECSENTRY
+_BANKS_BANKSENTRY.fields_by_name['value'].message_type = _BANK
+_BANKS_BANKSENTRY.containing_type = _BANKS
+_BANKS.fields_by_name['banks'].message_type = _BANKS_BANKSENTRY
 DESCRIPTOR.message_types_by_name['Bank'] = _BANK
 DESCRIPTOR.message_types_by_name['IbanSpecConstant'] = _IBANSPECCONSTANT
 DESCRIPTOR.message_types_by_name['IbanSpecConstantPattern'] = _IBANSPECCONSTANTPATTERN
@@ -534,18 +629,36 @@ IbanSpec = _reflection.GeneratedProtocolMessageType('IbanSpec', (_message.Messag
 _sym_db.RegisterMessage(IbanSpec)
 
 IbansSpecs = _reflection.GeneratedProtocolMessageType('IbansSpecs', (_message.Message,), {
+
+  'SpecsEntry' : _reflection.GeneratedProtocolMessageType('SpecsEntry', (_message.Message,), {
+    'DESCRIPTOR' : _IBANSSPECS_SPECSENTRY,
+    '__module__' : 'specs_pb2'
+    # @@protoc_insertion_point(class_scope:specs.IbansSpecs.SpecsEntry)
+    })
+  ,
   'DESCRIPTOR' : _IBANSSPECS,
   '__module__' : 'specs_pb2'
   # @@protoc_insertion_point(class_scope:specs.IbansSpecs)
   })
 _sym_db.RegisterMessage(IbansSpecs)
+_sym_db.RegisterMessage(IbansSpecs.SpecsEntry)
 
 Banks = _reflection.GeneratedProtocolMessageType('Banks', (_message.Message,), {
+
+  'BanksEntry' : _reflection.GeneratedProtocolMessageType('BanksEntry', (_message.Message,), {
+    'DESCRIPTOR' : _BANKS_BANKSENTRY,
+    '__module__' : 'specs_pb2'
+    # @@protoc_insertion_point(class_scope:specs.Banks.BanksEntry)
+    })
+  ,
   'DESCRIPTOR' : _BANKS,
   '__module__' : 'specs_pb2'
   # @@protoc_insertion_point(class_scope:specs.Banks)
   })
 _sym_db.RegisterMessage(Banks)
+_sym_db.RegisterMessage(Banks.BanksEntry)
 
 
+_IBANSSPECS_SPECSENTRY._options = None
+_BANKS_BANKSENTRY._options = None
 # @@protoc_insertion_point(module_scope)
