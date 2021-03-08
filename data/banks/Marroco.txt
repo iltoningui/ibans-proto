@@ -1,10 +1,10 @@
-Name of Bank	Account format (no letters, numbers only)	Example (please enter without spaces)
-Attijariwafa Bank	Bank code: 3 digits (007) City/Branch code: 5 digits Account number: 14 digits RIB key: 2 digits	00778700XXXXXXXXXXXXXX92
-Al Barid Bank	Bank code: 3 digits Branch code: 3 digits Account number: 16 digits RIB key: 2 digits	
-BCP – Banque Centrale Populaire	Bank code: 3 digits City/Branch code: 3 digits Account number: 16 digits RIB key: 2 digits	
-BMCE Bank	Bank code: 3 digits (011) City/Branch code: 5 digits Account number: 14 digits RIB key: 2 digits	01181000XXXXXXXXXXXXXX83
-BMCI BNP Paribas	Bank code: 3 digits (013) City/Branch code: 8 digits Account number: 11 digits RIB key: 2 digits	01378801100XXXXXXXXXXX48
-Credit Agricole du Maroc	Coming soon	
-Credit du Maroc	Bank code: 3 digits (021) City/Branch code: 5 digits Account number: 14 digits RIB key: 2 digits	02178000XXXXXXXXXXXXXX29
-CIH	Bank code: 3 digits (230) City/Branch code: 3 digits Account number: 16 digits RIB key: 2 digits	230780XXXXXXXXXXXXXXXX72
-SGMB Societe Generale	Bank code: 3 digits (022) City/Branch code: 5 digits Account number: 14 digits RIB key: 2 digits	02278000XXXXXXXXXXXXXX74
+#Name of Bank	Account format (no letters, numbers only)	Example (please enter without spaces)
+#Attijariwafa Bank	Bank code: 3 digits (007) City/Branch code: 5 digits Account number: 14 digits RIB key: 2 digits	00778700XXXXXXXXXXXXXX92
+#Al Barid Bank	Bank code: 3 digits Branch code: 3 digits Account number: 16 digits RIB key: 2 digits
+#BCP – Banque Centrale Populaire	Bank code: 3 digits City/Branch code: 3 digits Account number: 16 digits RIB key: 2 digits
+#BMCE Bank	Bank code: 3 digits (011) City/Branch code: 5 digits Account number: 14 digits RIB key: 2 digits	01181000XXXXXXXXXXXXXX83
+#BMCI BNP Paribas	Bank code: 3 digits (013) City/Branch code: 8 digits Account number: 11 digits RIB key: 2 digits	01378801100XXXXXXXXXXX48
+#Credit Agricole du Maroc	Coming soon
+#Credit du Maroc	Bank code: 3 digits (021) City/Branch code: 5 digits Account number: 14 digits RIB key: 2 digits	02178000XXXXXXXXXXXXXX29
+#CIH	Bank code: 3 digits (230) City/Branch code: 3 digits Account number: 16 digits RIB key: 2 digits	230780XXXXXXXXXXXXXXXX72
+#SGMB Societe Generale	Bank code: 3 digits (022) City/Branch code: 5 digits Account number: 14 digits RIB key: 2 digits	02278000XXXXXXXXXXXXXX74

@@ -1,0 +1,1820 @@
+{
+    "AO040": {
+        "name": "Banco Angolano de Investimentos, S.A.",
+        "code": "040",
+        "short_name": "BAI",
+        "swift": "BAIPAOLU"
+    },
+    "AO053": {
+        "name": "Banco Angolano de Neg\u00f3cios e Com\u00e9rcio, S.A.",
+        "code": "053",
+        "short_name": "BANC",
+        "swift": "ANCEAOLU"
+    },
+    "AO048": {
+        "name": "Banco BAI Micro Finan\u00e7as, S.A.",
+        "code": "048",
+        "short_name": "BMF",
+        "swift": "NOSAAOLU"
+    },
+    "AO051": {
+        "name": "Banco BIC, S.A.",
+        "code": "051",
+        "short_name": "BIC",
+        "swift": "BCCBAOLU"
+    },
+    "AO004": {
+        "name": "Banco Caixa Geral Totta de Angola, S.A.",
+        "code": "004",
+        "short_name": "BCGTA",
+        "swift": "BCGTAOLU"
+    },
+    "AO043": {
+        "name": "Banco Comercial Angolano, S.A.",
+        "code": "043",
+        "short_name": "BCA",
+        "swift": "COMLAOLU"
+    },
+    "AO059": {
+        "name": "Banco Comercial do Huambo, S.A.",
+        "code": "059",
+        "short_name": "BCH",
+        "swift": "BCHUAOLU"
+    },
+    "AO005": {
+        "name": "Banco de Com\u00e9rcio e Ind\u00fastria, S.A.",
+        "code": "005",
+        "short_name": "BCI",
+        "swift": "BCIDAOLU"
+    },
+    "AO054": {
+        "name": "Banco de Desenvolvimento de Angola, S.A.",
+        "code": "054",
+        "short_name": "BDA",
+        "swift": "BDAAAOLU"
+    },
+    "AO006": {
+        "name": "Banco de Fomento Angola, S.A.",
+        "code": "006",
+        "short_name": "BFA",
+        "swift": "BMFXAOLU"
+    },
+    "AO052": {
+        "name": "Banco de Neg\u00f3cios Internacional, S.A.",
+        "code": "052",
+        "short_name": "BNI",
+        "swift": "BNICAOLU"
+    },
+    "AO010": {
+        "name": "Banco de Poupan\u00e7a e Cr\u00e9dito, S.A.",
+        "code": "010",
+        "short_name": "BPC",
+        "swift": "BPCLAOLU"
+    },
+    "AO061": {
+        "name": "Banco de Poupan\u00e7a e Promo\u00e7\u00e3o Habitacional, S.A.",
+        "code": "061",
+        "short_name": "BPPH",
+        "swift": ""
+    },
+    "AO045": {
+        "name": "Banco Esp\u00edrito Santo Angola, S.A.",
+        "code": "045",
+        "short_name": "BESA",
+        "swift": "BESCAOLU"
+    },
+    "AO047": {
+        "name": "Banco Keve, S.A.",
+        "code": "047",
+        "short_name": "KEVE",
+        "swift": "BRDKAOLU"
+    },
+    "AO057": {
+        "name": "Banco Kwanza Investimento, S.A.",
+        "code": "057",
+        "short_name": "BKI",
+        "swift": "BQCAAOLU"
+    },
+    "AO034": {
+        "name": "Banco Millennium Angola, S.A.",
+        "code": "034",
+        "short_name": "BMA",
+        "swift": ""
+    },
+    "AO055": {
+        "name": "Banco Privado Atl\u00e2ntico, S.A.",
+        "code": "055",
+        "short_name": "BPA",
+        "swift": "PRTLAOLU"
+    },
+    "AO044": {
+        "name": "Banco Sol, S.A.",
+        "code": "044",
+        "short_name": "BSOL",
+        "swift": "SOLOAOLU"
+    },
+    "AO062": {
+        "name": "Banco Valor, S.A.",
+        "code": "062",
+        "short_name": "BVB",
+        "swift": "BVBXAOLU"
+    },
+    "AO056": {
+        "name": "Banco VTB \u00c1frica, S.A.",
+        "code": "056",
+        "short_name": "VTB",
+        "swift": "VTBLAOLU"
+    },
+    "AO058": {
+        "name": "Finibanco Angola, S.A.",
+        "code": "058",
+        "short_name": "FNB",
+        "swift": "FBCOAOLU"
+    },
+    "AO060": {
+        "name": "Standard Bank de Angola, S.A.",
+        "code": "060",
+        "short_name": "SBA",
+        "swift": "SBICAOLU"
+    },
+    "AO063": {
+        "name": "Standard Chartered Bank de Angola, S.A.",
+        "code": "063",
+        "short_name": "SCBA",
+        "swift": ""
+    },
+    "Country CodeBank Code": {
+        "name": "Bank Name",
+        "code": "Bank Code",
+        "short_name": "Initials",
+        "swift": "SWIFT/BIC"
+    },
+    "BR00000000": {
+        "name": "Banco do Brasil S.A.",
+        "code": "00000000",
+        "short_name": "BCO DO BRASIL S.A.",
+        "swift": ""
+    },
+    "BR00000208": {
+        "name": "BRB - BANCO DE BRASILIA S.A.",
+        "code": "00000208",
+        "short_name": "BRB - BCO DE BRASILIA S.A.",
+        "swift": ""
+    },
+    "BR00038121": {
+        "name": "Banco Central do Brasil - Selic",
+        "code": "00038121",
+        "short_name": "Selic",
+        "swift": ""
+    },
+    "BR00038166": {
+        "name": "Banco Central do Brasil",
+        "code": "00038166",
+        "short_name": "Bacen",
+        "swift": ""
+    },
+    "BR00250699": {
+        "name": "AGK CORRETORA DE CAMBIO S.A.",
+        "code": "00250699",
+        "short_name": "AGK CC S.A.",
+        "swift": ""
+    },
+    "BR00315557": {
+        "name": "CONFEDERA\u00c7\u00c3O NACIONAL DAS COOPERATIVAS CENTRAIS UNICRED LTDA. - UNICRED DO BRASI",
+        "code": "00315557",
+        "short_name": "CONF NAC COOP CENTRAIS UNICRED",
+        "swift": ""
+    },
+    "BR00360305": {
+        "name": "CAIXA ECONOMICA FEDERAL",
+        "code": "00360305",
+        "short_name": "CAIXA ECONOMICA FEDERAL",
+        "swift": ""
+    },
+    "BR00394460": {
+        "name": "Secretaria do Tesouro Nacional - STN",
+        "code": "00394460",
+        "short_name": "STN",
+        "swift": ""
+    },
+    "BR00416968": {
+        "name": "Banco Inter S.A.",
+        "code": "00416968",
+        "short_name": "BANCO INTER",
+        "swift": ""
+    },
+    "BR00517645": {
+        "name": "BANCO RIBEIRAO PRETO S.A.",
+        "code": "00517645",
+        "short_name": "BCO RIBEIRAO PRETO S.A.",
+        "swift": ""
+    },
+    "BR00556603": {
+        "name": "BANCO BARI DE INVESTIMENTOS E FINANCIAMENTOS S.A.",
+        "code": "00556603",
+        "short_name": "BANCO BARI S.A.",
+        "swift": ""
+    },
+    "BR00558456": {
+        "name": "Banco Cetelem S.A.",
+        "code": "00558456",
+        "short_name": "BCO CETELEM S.A.",
+        "swift": ""
+    },
+    "BR00795423": {
+        "name": "Banco Semear S.A.",
+        "code": "00795423",
+        "short_name": "BANCO SEMEAR",
+        "swift": ""
+    },
+    "BR00806535": {
+        "name": "Planner Corretora de Valores S.A.",
+        "code": "00806535",
+        "short_name": "PLANNER CV S.A.",
+        "swift": ""
+    },
+    "BR00997185": {
+        "name": "Banco B3 S.A.",
+        "code": "00997185",
+        "short_name": "BCO B3 S.A.",
+        "swift": ""
+    },
+    "BR01023570": {
+        "name": "Banco Rabobank International Brasil S.A.",
+        "code": "01023570",
+        "short_name": "BCO RABOBANK INTL BRASIL S.A.",
+        "swift": ""
+    },
+    "BR01027058": {
+        "name": "CIELO S.A.",
+        "code": "01027058",
+        "short_name": "CIELO S.A.",
+        "swift": ""
+    },
+    "BR01073966": {
+        "name": "Cooperativa de Cr\u00e9dito Rural de Abelardo Luz - Sulcredi/Crediluz",
+        "code": "01073966",
+        "short_name": "CCR DE ABELARDO LUZ",
+        "swift": ""
+    },
+    "BR01181521": {
+        "name": "BANCO COOPERATIVO SICREDI S.A.",
+        "code": "01181521",
+        "short_name": "BCO COOPERATIVO SICREDI S.A.",
+        "swift": ""
+    },
+    "BR01330387": {
+        "name": "COOPERATIVA DE CR\u00c9DITO RURAL DE PEQUENOS AGRICULTORES E DA REFORMA AGR\u00c1RIA DO CE",
+        "code": "01330387",
+        "short_name": "CREHNOR LARANJEIRAS",
+        "swift": ""
+    },
+    "BR01522368": {
+        "name": "Banco BNP Paribas Brasil S.A.",
+        "code": "01522368",
+        "short_name": "BCO BNP PARIBAS BRASIL S A",
+        "swift": ""
+    },
+    "BR01634601": {
+        "name": "CENTRAL DE COOPERATIVAS DE ECONOMIA E CR\u00c9DITO M\u00daTUO DO ESTADO DO RIO GRANDE DO S",
+        "code": "01634601",
+        "short_name": "CCCM UNICRED CENTRAL RS",
+        "swift": ""
+    },
+    "BR01658426": {
+        "name": "COOPERFORTE - COOPERATIVA DE ECONOMIA E CR\u00c9DITO M\u00daTUO DE FUNCION\u00c1RIOS DE INSTITU",
+        "code": "01658426",
+        "short_name": "CECM COOPERFORTE",
+        "swift": ""
+    },
+    "BR01701201": {
+        "name": "Kirton Bank S.A. - Banco M\u00faltiplo",
+        "code": "01701201",
+        "short_name": "KIRTON BANK",
+        "swift": ""
+    },
+    "BR01800019": {
+        "name": "\"PORTOCRED S.A. - CREDITO, FINANCIAMENTO E INVESTIMENTO",
+        "code": "01800019",
+        "short_name": "PORTOCRED S.A. - CFI",
+        "swift": ""
+    },
+    "BR01852137": {
+        "name": "BBC LEASING S.A. - ARRENDAMENTO MERCANTIL",
+        "code": "01852137",
+        "short_name": "BBC LEASING",
+        "swift": ""
+    },
+    "BR02038232": {
+        "name": "BANCO COOPERATIVO DO BRASIL S.A. - BANCOOB",
+        "code": "02038232",
+        "short_name": "BANCOOB",
+        "swift": ""
+    },
+    "BR02276653": {
+        "name": "TRINUS CAPITAL DISTRIBUIDORA DE T\u00cdTULOS E VALORES MOBILI\u00c1RIOS S.A.",
+        "code": "02276653",
+        "short_name": "TRINUS CAPITAL DTVM",
+        "swift": ""
+    },
+    "BR02318507": {
+        "name": "BANCO KEB HANA DO BRASIL S.A.",
+        "code": "02318507",
+        "short_name": "BCO KEB HANA DO BRASIL S.A.",
+        "swift": ""
+    },
+    "BR02332886": {
+        "name": "\"XP INVESTIMENTOS CORRETORA DE C\u00c2MBIO,T\u00cdTULOS E VALORES MOBILI\u00c1RIOS S/A",
+        "code": "02332886",
+        "short_name": "XP INVESTIMENTOS CCTVM S/A",
+        "swift": ""
+    },
+    "BR02398976": {
+        "name": "UNIPRIME NORTE DO PARAN\u00c1 - COOPERATIVA DE CR\u00c9DITO LTDA",
+        "code": "02398976",
+        "short_name": "UNIPRIME NORTE DO PARAN\u00c1 - CC",
+        "swift": ""
+    },
+    "BR02685483": {
+        "name": "\"CM CAPITAL MARKETS CORRETORA DE C\u00c2MBIO, T\u00cdTULOS E VALORES MOBILI\u00c1RIOS LTDA",
+        "code": "02685483",
+        "short_name": "CM CAPITAL MARKETS CCTVM LTDA",
+        "swift": ""
+    },
+    "BR02801938": {
+        "name": "BANCO MORGAN STANLEY S.A.",
+        "code": "02801938",
+        "short_name": "BCO MORGAN STANLEY S.A.",
+        "swift": ""
+    },
+    "BR02819125": {
+        "name": "\"UBS Brasil Corretora de C\u00e2mbio, T\u00edtulos e Valores Mobili\u00e1rios S.A.",
+        "code": "02819125",
+        "short_name": "UBS BRASIL CCTVM S.A.",
+        "swift": ""
+    },
+    "BR02992317": {
+        "name": "Treviso Corretora de C\u00e2mbio S.A.",
+        "code": "02992317",
+        "short_name": "TREVISO CC S.A.",
+        "swift": ""
+    },
+    "BR02992335": {
+        "name": "C\u00e2mara Interbanc\u00e1ria de Pagamentos - CIP - LDL",
+        "code": "02992335",
+        "short_name": "CIP Siloc",
+        "swift": ""
+    },
+    "BR03012230": {
+        "name": "Hipercard Banco M\u00faltiplo S.A.",
+        "code": "03012230",
+        "short_name": "HIPERCARD BM S.A.",
+        "swift": ""
+    },
+    "BR03017677": {
+        "name": "Banco J. Safra S.A.",
+        "code": "03017677",
+        "short_name": "BCO. J.SAFRA S.A.",
+        "swift": ""
+    },
+    "BR03046391": {
+        "name": "UNIPRIME CENTRAL - CENTRAL INTERESTADUAL DE COOPERATIVAS DE CREDITO LTDA.",
+        "code": "03046391",
+        "short_name": "UNIPRIME CENTRAL CCC LTDA.",
+        "swift": ""
+    },
+    "BR03215790": {
+        "name": "Banco Toyota do Brasil S.A.",
+        "code": "03215790",
+        "short_name": "BCO TOYOTA DO BRASIL S.A.",
+        "swift": ""
+    },
+    "BR03311443": {
+        "name": "\"PARATI - CREDITO, FINANCIAMENTO E INVESTIMENTO S.A.",
+        "code": "03311443",
+        "short_name": "PARATI - CFI S.A.",
+        "swift": ""
+    },
+    "BR03323840": {
+        "name": "Banco Alfa S.A.",
+        "code": "03323840",
+        "short_name": "BCO ALFA S.A.",
+        "swift": ""
+    },
+    "BR03502968": {
+        "name": "PI Distribuidora de T\u00edtulos e Valores Mobili\u00e1rios S.A.",
+        "code": "03502968",
+        "short_name": "PI DTVM S.A.",
+        "swift": ""
+    },
+    "BR03532415": {
+        "name": "Banco ABN Amro S.A.",
+        "code": "03532415",
+        "short_name": "BCO ABN AMRO S.A.",
+        "swift": ""
+    },
+    "BR03609817": {
+        "name": "Banco Cargill S.A.",
+        "code": "03609817",
+        "short_name": "BCO CARGILL S.A.",
+        "swift": ""
+    },
+    "BR03751794": {
+        "name": "Terra Investimentos Distribuidora de T\u00edtulos e Valores Mobili\u00e1rios Ltda.",
+        "code": "03751794",
+        "short_name": "TERRA INVESTIMENTOS DTVM",
+        "swift": ""
+    },
+    "BR03973814": {
+        "name": "SERVICOOP - COOPERATIVA DE CR\u00c9DITO DOS SERVIDORES P\u00daBLICOS ESTADUAIS DO RIO GRAN",
+        "code": "03973814",
+        "short_name": "SERVICOOP",
+        "swift": ""
+    },
+    "BR04062902": {
+        "name": "VISION S.A. CORRETORA DE CAMBIO",
+        "code": "04062902",
+        "short_name": "VISION S.A. CC",
+        "swift": ""
+    },
+    "BR04184779": {
+        "name": "Banco Bradescard S.A.",
+        "code": "04184779",
+        "short_name": "BANCO BRADESCARD",
+        "swift": ""
+    },
+    "BR04257795": {
+        "name": "Nova Futura Corretora de T\u00edtulos e Valores Mobili\u00e1rios Ltda.",
+        "code": "04257795",
+        "short_name": "NOVA FUTURA CTVM LTDA.",
+        "swift": ""
+    },
+    "BR04307598": {
+        "name": "FID\u00daCIA SOCIEDADE DE CR\u00c9DITO AO MICROEMPREENDEDOR E \u00c0 EMPRESA DE PEQUENO PORTE L",
+        "code": "04307598",
+        "short_name": "FIDUCIA SCMEPP LTDA",
+        "swift": ""
+    },
+    "BR04332281": {
+        "name": "GOLDMAN SACHS DO BRASIL BANCO MULTIPLO S.A.",
+        "code": "04332281",
+        "short_name": "GOLDMAN SACHS DO BRASIL BM S.A",
+        "swift": ""
+    },
+    "BR04391007": {
+        "name": "C\u00e2mara Interbanc\u00e1ria de Pagamentos",
+        "code": "04391007",
+        "short_name": "CIP Sitraf",
+        "swift": ""
+    },
+    "BR04632856": {
+        "name": "Credisis - Central de Cooperativas de Cr\u00e9dito Ltda.",
+        "code": "04632856",
+        "short_name": "CREDISIS CENTRAL DE COOPERATIVAS DE CR\u00c9DITO LTDA.",
+        "swift": ""
+    },
+    "BR04715685": {
+        "name": "COOPERATIVA DE CR\u00c9DITO M\u00daTUO DOS DESPACHANTES DE TR\u00c2NSITO DE SANTA CATARINA E RI",
+        "code": "04715685",
+        "short_name": "CCM DESP TR\u00c2NS SC E RS",
+        "swift": ""
+    },
+    "BR04814563": {
+        "name": "\"SOROCRED   CR\u00c9DITO, FINANCIAMENTO E INVESTIMENTO S.A.",
+        "code": "04814563",
+        "short_name": "SOROCRED CFI S.A.",
+        "swift": ""
+    },
+    "BR04866275": {
+        "name": "Banco Inbursa S.A.",
+        "code": "04866275",
+        "short_name": "BANCO INBURSA",
+        "swift": ""
+    },
+    "BR04902979": {
+        "name": "BANCO DA AMAZONIA S.A.",
+        "code": "04902979",
+        "short_name": "BCO DA AMAZONIA S.A.",
+        "swift": ""
+    },
+    "BR04913129": {
+        "name": "Confidence Corretora de C\u00e2mbio S.A.",
+        "code": "04913129",
+        "short_name": "CONFIDENCE CC S.A.",
+        "swift": ""
+    },
+    "BR04913711": {
+        "name": "Banco do Estado do Par\u00e1 S.A.",
+        "code": "04913711",
+        "short_name": "BCO DO EST. DO PA S.A.",
+        "swift": ""
+    },
+    "BR05351887": {
+        "name": "\"ZEMA CR\u00c9DITO, FINANCIAMENTO E INVESTIMENTO S/A",
+        "code": "05351887",
+        "short_name": "ZEMA CFI S/A",
+        "swift": ""
+    },
+    "BR05442029": {
+        "name": "Casa do Cr\u00e9dito S.A. Sociedade de Cr\u00e9dito ao Microempreendedor",
+        "code": "05442029",
+        "short_name": "CASA CREDITO S.A. SCM",
+        "swift": ""
+    },
+    "BR05463212": {
+        "name": "Cooperativa Central de Cr\u00e9dito - Ailos",
+        "code": "05463212",
+        "short_name": "COOP CENTRAL AILOS",
+        "swift": ""
+    },
+    "BR05790149": {
+        "name": "Central Cooperativa de Cr\u00e9dito no Estado do Esp\u00edrito Santo - CECOOP",
+        "code": "05790149",
+        "short_name": "CENTRAL COOPERATIVA DE CR\u00c9DITO NO ESTADO DO ESP\u00cdRITO SANTO",
+        "swift": ""
+    },
+    "BR06271464": {
+        "name": "Banco Bradesco BBI S.A.",
+        "code": "06271464",
+        "short_name": "BCO BBI S.A.",
+        "swift": ""
+    },
+    "BR07207996": {
+        "name": "Banco Bradesco Financiamentos S.A.",
+        "code": "07207996",
+        "short_name": "BCO BRADESCO FINANC. S.A.",
+        "swift": ""
+    },
+    "BR07237373": {
+        "name": "Banco do Nordeste do Brasil S.A.",
+        "code": "07237373",
+        "short_name": "BCO DO NORDESTE DO BRASIL S.A.",
+        "swift": ""
+    },
+    "BR07450604": {
+        "name": "China Construction Bank (Brasil) Banco M\u00faltiplo S/A",
+        "code": "07450604",
+        "short_name": "BCO CCB BRASIL S.A.",
+        "swift": ""
+    },
+    "BR07512441": {
+        "name": "\"HS FINANCEIRA S/A CREDITO, FINANCIAMENTO E INVESTIMENTOS",
+        "code": "07512441",
+        "short_name": "HS FINANCEIRA",
+        "swift": ""
+    },
+    "BR07652226": {
+        "name": "\"Lecca Cr\u00e9dito, Financiamento e Investimento S/A",
+        "code": "07652226",
+        "short_name": "LECCA CFI S.A.",
+        "swift": ""
+    },
+    "BR07656500": {
+        "name": "Banco KDB do Brasil S.A.",
+        "code": "07656500",
+        "short_name": "BCO KDB BRASIL S.A.",
+        "swift": ""
+    },
+    "BR07679404": {
+        "name": "BANCO TOP\u00c1ZIO S.A.",
+        "code": "07679404",
+        "short_name": "BANCO TOP\u00c1ZIO S.A.",
+        "swift": ""
+    },
+    "BR07853842": {
+        "name": "COOPERATIVA DE CR\u00c9DITO RURAL DE OURO   SULCREDI/OURO",
+        "code": "07853842",
+        "short_name": "CCR DE OURO",
+        "swift": ""
+    },
+    "BR07945233": {
+        "name": "P\u00d3LOCRED   SOCIEDADE DE CR\u00c9DITO AO MICROEMPREENDEDOR E \u00c0 EMPRESA DE PEQUENO PORT",
+        "code": "07945233",
+        "short_name": "POLOCRED SCMEPP LTDA.",
+        "swift": ""
+    },
+    "BR08240446": {
+        "name": "COOPERATIVA DE CREDITO RURAL DE IBIAM - SULCREDI/IBIAM",
+        "code": "08240446",
+        "short_name": "CCR DE IBIAM",
+        "swift": ""
+    },
+    "BR08253539": {
+        "name": "Cooperativa de Cr\u00e9dito Rural de S\u00e3o Miguel do Oeste - Sulcredi/S\u00e3o Miguel",
+        "code": "08253539",
+        "short_name": "CCR DE S\u00c3O MIGUEL DO OESTE",
+        "swift": ""
+    },
+    "BR08357240": {
+        "name": "Banco CSF S.A.",
+        "code": "08357240",
+        "short_name": "BCO CSF S.A.",
+        "swift": ""
+    },
+    "BR08561701": {
+        "name": "Pagseguro Internet S.A.",
+        "code": "08561701",
+        "short_name": "PAGSEGURO",
+        "swift": ""
+    },
+    "BR08609934": {
+        "name": "MONEYCORP BANCO DE C\u00c2MBIO S.A.",
+        "code": "08609934",
+        "short_name": "MONEYCORP BCO DE C\u00c2MBIO S.A.",
+        "swift": ""
+    },
+    "BR08673569": {
+        "name": "F.D'GOLD - DISTRIBUIDORA DE T\u00cdTULOS E VALORES MOBILI\u00c1RIOS LTDA.",
+        "code": "08673569",
+        "short_name": "F D GOLD DTVM LTDA",
+        "swift": ""
+    },
+    "BR09089356": {
+        "name": "GERENCIANET S.A.",
+        "code": "09089356",
+        "short_name": "GERENCIANET",
+        "swift": ""
+    },
+    "BR09105360": {
+        "name": "ICAP do Brasil Corretora de T\u00edtulos e Valores Mobili\u00e1rios Ltda.",
+        "code": "09105360",
+        "short_name": "ICAP DO BRASIL CTVM LTDA.",
+        "swift": ""
+    },
+    "BR09210106": {
+        "name": "SOCRED S.A. - SOCIEDADE DE CR\u00c9DITO AO MICROEMPREENDEDOR E \u00c0 EMPRESA DE PEQUENO P",
+        "code": "09210106",
+        "short_name": "SOCRED SA - SCMEPP",
+        "swift": ""
+    },
+    "BR09274232": {
+        "name": "STATE STREET BRASIL S.A. ? BANCO COMERCIAL",
+        "code": "09274232",
+        "short_name": "STATE STREET BR S.A. BCO COMERCIAL",
+        "swift": ""
+    },
+    "BR09313766": {
+        "name": "\"CARUANA S.A. - SOCIEDADE DE CR\u00c9DITO, FINANCIAMENTO E INVESTIMENTO",
+        "code": "09313766",
+        "short_name": "CARUANA SCFI",
+        "swift": ""
+    },
+    "BR09464032": {
+        "name": "\"MIDWAY S.A. - CR\u00c9DITO, FINANCIAMENTO E INVESTIMENTO",
+        "code": "09464032",
+        "short_name": "MIDWAY S.A. - SCFI",
+        "swift": ""
+    },
+    "BR09512542": {
+        "name": "Codepe Corretora de Valores e C\u00e2mbio S.A.",
+        "code": "09512542",
+        "short_name": "CODEPE CVC S.A.",
+        "swift": ""
+    },
+    "BR09516419": {
+        "name": "Banco Original do Agroneg\u00f3cio S.A.",
+        "code": "09516419",
+        "short_name": "BCO ORIGINAL DO AGRO S/A",
+        "swift": ""
+    },
+    "BR09554480": {
+        "name": "Super Pagamentos e Administra\u00e7\u00e3o de Meios Eletr\u00f4nicos S.A.",
+        "code": "09554480",
+        "short_name": "SUPER PAGAMENTOS E ADMINISTRACAO DE MEIOS ELETRONICOS S.A.",
+        "swift": ""
+    },
+    "BR10264663": {
+        "name": "BancoSeguro S.A.",
+        "code": "10264663",
+        "short_name": "BANCOSEGURO S.A.",
+        "swift": ""
+    },
+    "BR10398952": {
+        "name": "CONFEDERA\u00c7\u00c3O NACIONAL DAS COOPERATIVAS CENTRAIS DE CR\u00c9DITO E ECONOMIA FAMILIAR E",
+        "code": "10398952",
+        "short_name": "CRESOL CONFEDERA\u00c7\u00c3O",
+        "swift": ""
+    },
+    "BR10573521": {
+        "name": "MERCADOPAGO.COM REPRESENTACOES LTDA.",
+        "code": "10573521",
+        "short_name": "MERCADO PAGO",
+        "swift": ""
+    },
+    "BR10664513": {
+        "name": "Banco Agibank S.A.",
+        "code": "10664513",
+        "short_name": "BCO AGIBANK S.A.",
+        "swift": ""
+    },
+    "BR10690848": {
+        "name": "Banco da China Brasil S.A.",
+        "code": "10690848",
+        "short_name": "BCO DA CHINA BRASIL S.A.",
+        "swift": ""
+    },
+    "BR10853017": {
+        "name": "Get Money Corretora de C\u00e2mbio S.A.",
+        "code": "10853017",
+        "short_name": "GET MONEY CC LTDA",
+        "swift": ""
+    },
+    "BR10866788": {
+        "name": "Banco Bandepe S.A.",
+        "code": "10866788",
+        "short_name": "BCO BANDEPE S.A.",
+        "swift": ""
+    },
+    "BR11165756": {
+        "name": "GLOBAL FINAN\u00c7AS SOCIEDADE DE CR\u00c9DITO AO MICROEMPREENDEDOR E \u00c0 EMPRESA DE PEQUENO",
+        "code": "11165756",
+        "short_name": "GLOBAL SCM LTDA",
+        "swift": ""
+    },
+    "BR11476673": {
+        "name": "BANCO RANDON S.A.",
+        "code": "11476673",
+        "short_name": "BANCO RANDON S.A.",
+        "swift": ""
+    },
+    "BR11495073": {
+        "name": "OM DISTRIBUIDORA DE T\u00cdTULOS E VALORES MOBILI\u00c1RIOS LTDA",
+        "code": "11495073",
+        "short_name": "OM DTVM LTDA",
+        "swift": ""
+    },
+    "BR11581339": {
+        "name": "MONEY PLUS SOCIEDADE DE CR\u00c9DITO AO MICROEMPREENDEDOR E A EMPRESA DE PEQUENO PORT",
+        "code": "11581339",
+        "short_name": "MONEY PLUS SCMEPP LTDA",
+        "swift": ""
+    },
+    "BR11703662": {
+        "name": "Travelex Banco de C\u00e2mbio S.A.",
+        "code": "11703662",
+        "short_name": "TRAVELEX BANCO DE C\u00c2MBIO S.A.",
+        "swift": ""
+    },
+    "BR11758741": {
+        "name": "Banco Finaxis S.A.",
+        "code": "11758741",
+        "short_name": "BANCO FINAXIS",
+        "swift": ""
+    },
+    "BR11970623": {
+        "name": "BANCO SENFF S.A.",
+        "code": "11970623",
+        "short_name": "BCO SENFF S.A.",
+        "swift": ""
+    },
+    "BR12865507": {
+        "name": "\"BRK S.A. Cr\u00e9dito, Financiamento e Investimento",
+        "code": "12865507",
+        "short_name": "BRK S.A. CFI",
+        "swift": ""
+    },
+    "BR13009717": {
+        "name": "Banco do Estado de Sergipe S.A.",
+        "code": "13009717",
+        "short_name": "BCO DO EST. DE SE S.A.",
+        "swift": ""
+    },
+    "BR13059145": {
+        "name": "BEXS BANCO DE C\u00c2MBIO S/A",
+        "code": "13059145",
+        "short_name": "BEXS BCO DE CAMBIO S.A.",
+        "swift": ""
+    },
+    "BR13140088": {
+        "name": "Acesso Solu\u00e7\u00f5es de Pagamento S.A.",
+        "code": "13140088",
+        "short_name": "ACESSO SOLUCOES PAGAMENTO SA",
+        "swift": ""
+    },
+    "BR13220493": {
+        "name": "BR Partners Banco de Investimento S.A.",
+        "code": "13220493",
+        "short_name": "BR PARTNERS BI",
+        "swift": ""
+    },
+    "BR13293225": {
+        "name": "\u00d3rama Distribuidora de T\u00edtulos e Valores Mobili\u00e1rios S.A.",
+        "code": "13293225",
+        "short_name": "\u00d3RAMA DTVM S.A.",
+        "swift": ""
+    },
+    "BR13370835": {
+        "name": "BPP Institui\u00e7\u00e3o de Pagamento S.A.",
+        "code": "13370835",
+        "short_name": "BPP IP S.A.",
+        "swift": ""
+    },
+    "BR13486793": {
+        "name": "BRL Trust Distribuidora de T\u00edtulos e Valores Mobili\u00e1rios S.A.",
+        "code": "13486793",
+        "short_name": "BRL TRUST DTVM SA",
+        "swift": ""
+    },
+    "BR13673855": {
+        "name": "Fram Capital Distribuidora de T\u00edtulos e Valores Mobili\u00e1rios S.A.",
+        "code": "13673855",
+        "short_name": "FRAM CAPITAL DTVM S.A.",
+        "swift": ""
+    },
+    "BR13720915": {
+        "name": "Banco Western Union do Brasil S.A.",
+        "code": "13720915",
+        "short_name": "BCO WESTERN UNION",
+        "swift": ""
+    },
+    "BR13884775": {
+        "name": "HUB PAGAMENTOS S.A",
+        "code": "13884775",
+        "short_name": "HUB PAGAMENTOS",
+        "swift": ""
+    },
+    "BR14190547": {
+        "name": "CAMBIONET CORRETORA DE C\u00c2MBIO LTDA.",
+        "code": "14190547",
+        "short_name": "CAMBIONET CC LTDA",
+        "swift": ""
+    },
+    "BR14388334": {
+        "name": "PARAN\u00c1 BANCO S.A.",
+        "code": "14388334",
+        "short_name": "PARANA BCO S.A.",
+        "swift": ""
+    },
+    "BR14511781": {
+        "name": "BARI COMPANHIA HIPOTEC\u00c1RIA",
+        "code": "14511781",
+        "short_name": "BARI CIA HIPOTEC\u00c1RIA",
+        "swift": ""
+    },
+    "BR15114366": {
+        "name": "Banco Bocom BBM S.A.",
+        "code": "15114366",
+        "short_name": "BCO BOCOM BBM S.A.",
+        "swift": ""
+    },
+    "BR15173776": {
+        "name": "BANCO CAPITAL S.A.",
+        "code": "15173776",
+        "short_name": "BCO CAPITAL S.A.",
+        "swift": ""
+    },
+    "BR15357060": {
+        "name": "Banco Woori Bank do Brasil S.A.",
+        "code": "15357060",
+        "short_name": "BCO WOORI BANK DO BRASIL S.A.",
+        "swift": ""
+    },
+    "BR15581638": {
+        "name": "Facta Financeira S.A. - Cr\u00e9dito Financiamento e Investimento",
+        "code": "15581638",
+        "short_name": "FACTA S.A. CFI",
+        "swift": ""
+    },
+    "BR16501555": {
+        "name": "Stone Pagamentos S.A.",
+        "code": "16501555",
+        "short_name": "STONE PAGAMENTOS S.A.",
+        "swift": ""
+    },
+    "BR16927221": {
+        "name": "AMAZ\u00d4NIA CORRETORA DE C\u00c2MBIO LTDA.",
+        "code": "16927221",
+        "short_name": "AMAZ\u00d4NIA CC LTDA.",
+        "swift": ""
+    },
+    "BR16944141": {
+        "name": "Broker Brasil Corretora de C\u00e2mbio Ltda.",
+        "code": "16944141",
+        "short_name": "BROKER BRASIL CC LTDA.",
+        "swift": ""
+    },
+    "BR17184037": {
+        "name": "Banco Mercantil do Brasil S.A.",
+        "code": "17184037",
+        "short_name": "BCO MERCANTIL DO BRASIL S.A.",
+        "swift": ""
+    },
+    "BR17298092": {
+        "name": "Banco Ita\u00fa BBA S.A.",
+        "code": "17298092",
+        "short_name": "BCO ITA\u00da BBA S.A.",
+        "swift": ""
+    },
+    "BR17351180": {
+        "name": "BANCO TRIANGULO S.A.",
+        "code": "17351180",
+        "short_name": "BCO TRIANGULO S.A.",
+        "swift": ""
+    },
+    "BR17352220": {
+        "name": "SENSO CORRETORA DE CAMBIO E VALORES MOBILIARIOS S.A",
+        "code": "17352220",
+        "short_name": "SENSO CCVM S.A.",
+        "swift": ""
+    },
+    "BR17453575": {
+        "name": "ICBC do Brasil Banco M\u00faltiplo S.A.",
+        "code": "17453575",
+        "short_name": "ICBC DO BRASIL BM S.A.",
+        "swift": ""
+    },
+    "BR17772370": {
+        "name": "Vip's Corretora de C\u00e2mbio Ltda.",
+        "code": "17772370",
+        "short_name": "VIPS CC LTDA.",
+        "swift": ""
+    },
+    "BR17826860": {
+        "name": "BMS SOCIEDADE DE CR\u00c9DITO DIRETO S.A.",
+        "code": "17826860",
+        "short_name": "BMS SCD S.A.",
+        "swift": ""
+    },
+    "BR18188384": {
+        "name": "CREFAZ SOCIEDADE DE CR\u00c9DITO AO MICROEMPREENDEDOR E A EMPRESA DE PEQUENO PORTE LT",
+        "code": "18188384",
+        "short_name": "CREFAZ SCMEPP LTDA",
+        "swift": ""
+    },
+    "BR18236120": {
+        "name": "Nu Pagamentos S.A.",
+        "code": "18236120",
+        "short_name": "NU PAGAMENTOS S.A.",
+        "swift": ""
+    },
+    "BR18520834": {
+        "name": "UBS Brasil Banco de Investimento S.A.",
+        "code": "18520834",
+        "short_name": "UBS BRASIL BI S.A.",
+        "swift": ""
+    },
+    "BR19307785": {
+        "name": "MS Bank S.A. Banco de C\u00e2mbio",
+        "code": "19307785",
+        "short_name": "MS BANK S.A. BCO DE C\u00c2MBIO",
+        "swift": ""
+    },
+    "BR20155248": {
+        "name": "PARMETAL DISTRIBUIDORA DE T\u00cdTULOS E VALORES MOBILI\u00c1RIOS LTDA",
+        "code": "20155248",
+        "short_name": "PARMETAL DTVM LTDA",
+        "swift": ""
+    },
+    "BR21018182": {
+        "name": "BOLETOBANC\u00c1RIO.COM TECNOLOGIA DE PAGAMENTOS LTDA.",
+        "code": "21018182",
+        "short_name": "JUNO",
+        "swift": ""
+    },
+    "BR21332862": {
+        "name": "CARTOS SOCIEDADE DE CR\u00c9DITO DIRETO S.A.",
+        "code": "21332862",
+        "short_name": "CARTOS SCD S.A.",
+        "swift": ""
+    },
+    "BR22610500": {
+        "name": "VORTX DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA.",
+        "code": "22610500",
+        "short_name": "VORTX DTVM LTDA.",
+        "swift": ""
+    },
+    "BR22896431": {
+        "name": "PICPAY SERVICOS S.A.",
+        "code": "22896431",
+        "short_name": "PICPAY",
+        "swift": ""
+    },
+    "BR23522214": {
+        "name": "Commerzbank Brasil S.A. - Banco M\u00faltiplo",
+        "code": "23522214",
+        "short_name": "COMMERZBANK BRASIL S.A. - BCO M\u00daLTIPLO",
+        "swift": ""
+    },
+    "BR23862762": {
+        "name": "\"WILL FINANCEIRA S.A. CR\u00c9DITO, FINANCIAMENTO E INVESTIMENTO",
+        "code": "23862762",
+        "short_name": "WILL FINANCEIRA S.A.CFI",
+        "swift": ""
+    },
+    "BR24074692": {
+        "name": "GUITTA CORRETORA DE CAMBIO LTDA.",
+        "code": "24074692",
+        "short_name": "GUITTA CC LTDA",
+        "swift": ""
+    },
+    "BR24537861": {
+        "name": "FFA SOCIEDADE DE CR\u00c9DITO AO MICROEMPREENDEDOR E \u00c0 EMPRESA DE PEQUENO PORTE LTDA.",
+        "code": "24537861",
+        "short_name": "FFA SCMEPP LTDA.",
+        "swift": ""
+    },
+    "BR26563270": {
+        "name": "COOPERATIVA DE CREDITO RURAL DE PRIMAVERA DO LESTE",
+        "code": "26563270",
+        "short_name": "CCR DE PRIMAVERA DO LESTE",
+        "swift": ""
+    },
+    "BR27098060": {
+        "name": "Banco Digio S.A.",
+        "code": "27098060",
+        "short_name": "BANCO DIGIO",
+        "swift": ""
+    },
+    "BR27214112": {
+        "name": "\"AL5 S.A. CR\u00c9DITO, FINANCIAMENTO E INVESTIMENTO",
+        "code": "27214112",
+        "short_name": "AL5 S.A. CFI",
+        "swift": ""
+    },
+    "BR27351731": {
+        "name": "\"REALIZE CR\u00c9DITO, FINANCIAMENTO E INVESTIMENTO S.A.",
+        "code": "27351731",
+        "short_name": "REALIZE CFI S.A.",
+        "swift": ""
+    },
+    "BR27652684": {
+        "name": "Genial Investimentos Corretora de Valores Mobili\u00e1rios S.A.",
+        "code": "27652684",
+        "short_name": "GENIAL INVESTIMENTOS CVM S.A.",
+        "swift": ""
+    },
+    "BR27842177": {
+        "name": "\"IB Corretora de C\u00e2mbio, T\u00edtulos e Valores Mobili\u00e1rios S.A.",
+        "code": "27842177",
+        "short_name": "IB CCTVM S.A.",
+        "swift": ""
+    },
+    "BR28127603": {
+        "name": "BANESTES S.A. BANCO DO ESTADO DO ESPIRITO SANTO",
+        "code": "28127603",
+        "short_name": "BCO BANESTES S.A.",
+        "swift": ""
+    },
+    "BR28195667": {
+        "name": "Banco ABC Brasil S.A.",
+        "code": "28195667",
+        "short_name": "BCO ABC BRASIL S.A.",
+        "swift": ""
+    },
+    "BR28650236": {
+        "name": "BS2 Distribuidora de T\u00edtulos e Valores Mobili\u00e1rios S.A.",
+        "code": "28650236",
+        "short_name": "BS2 DTVM S.A.",
+        "swift": ""
+    },
+    "BR28719664": {
+        "name": "Sistema do Balc\u00e3o B3",
+        "code": "28719664",
+        "short_name": "Balc\u00e3o B3",
+        "swift": ""
+    },
+    "BR29011780": {
+        "name": "C\u00e2mara Interbanc\u00e1ria de Pagamentos - CIP C3",
+        "code": "29011780",
+        "short_name": "CIP C3",
+        "swift": ""
+    },
+    "BR29030467": {
+        "name": "Scotiabank Brasil S.A. Banco M\u00faltiplo",
+        "code": "29030467",
+        "short_name": "SCOTIABANK BRASIL",
+        "swift": ""
+    },
+    "BR29162769": {
+        "name": "TORO CORRETORA DE T\u00cdTULOS E VALORES MOBILI\u00c1RIOS LTDA",
+        "code": "29162769",
+        "short_name": "TORO CTVM LTDA",
+        "swift": ""
+    },
+    "BR30306294": {
+        "name": "Banco BTG Pactual S.A.",
+        "code": "30306294",
+        "short_name": "BANCO BTG PACTUAL S.A.",
+        "swift": ""
+    },
+    "BR30680829": {
+        "name": "\"NU FINANCEIRA S.A. - Sociedade de Cr\u00e9dito, Financiamento e Investimento",
+        "code": "30680829",
+        "short_name": "NU FINANCEIRA S.A. CFI",
+        "swift": ""
+    },
+    "BR30723886": {
+        "name": "Banco Modal S.A.",
+        "code": "30723886",
+        "short_name": "BCO MODAL S.A.",
+        "swift": ""
+    },
+    "BR31597552": {
+        "name": "BANCO CLASSICO S.A.",
+        "code": "31597552",
+        "short_name": "BCO CLASSICO S.A.",
+        "swift": ""
+    },
+    "BR31749596": {
+        "name": "IDEAL CORRETORA DE T\u00cdTULOS E VALORES MOBILI\u00c1RIOS S.A.",
+        "code": "31749596",
+        "short_name": "IDEAL CTVM S.A.",
+        "swift": ""
+    },
+    "BR31872495": {
+        "name": "Banco C6 S.A.",
+        "code": "31872495",
+        "short_name": "BCO C6 S.A.",
+        "swift": ""
+    },
+    "BR31880826": {
+        "name": "Banco Guanabara S.A.",
+        "code": "31880826",
+        "short_name": "BCO GUANABARA S.A.",
+        "swift": ""
+    },
+    "BR31895683": {
+        "name": "Banco Industrial do Brasil S.A.",
+        "code": "31895683",
+        "short_name": "BCO INDUSTRIAL DO BRASIL S.A.",
+        "swift": ""
+    },
+    "BR32062580": {
+        "name": "Banco Credit Suisse (Brasil) S.A.",
+        "code": "32062580",
+        "short_name": "BCO CREDIT SUISSE S.A.",
+        "swift": ""
+    },
+    "BR32402502": {
+        "name": "QI Sociedade de Cr\u00e9dito Direto S.A.",
+        "code": "32402502",
+        "short_name": "QI SCD S.A.",
+        "swift": ""
+    },
+    "BR32648370": {
+        "name": "FAIR CORRETORA DE CAMBIO S.A.",
+        "code": "32648370",
+        "short_name": "FAIR CC S.A.",
+        "swift": ""
+    },
+    "BR32997490": {
+        "name": "Creditas Sociedade de Cr\u00e9dito Direto S.A.",
+        "code": "32997490",
+        "short_name": "CREDITAS SCD",
+        "swift": ""
+    },
+    "BR33042151": {
+        "name": "Banco de la Nacion Argentina",
+        "code": "33042151",
+        "short_name": "BCO LA NACION ARGENTINA",
+        "swift": ""
+    },
+    "BR33042953": {
+        "name": "Citibank N.A.",
+        "code": "33042953",
+        "short_name": "CITIBANK N.A.",
+        "swift": ""
+    },
+    "BR33132044": {
+        "name": "BANCO CEDULA S.A.",
+        "code": "33132044",
+        "short_name": "BCO CEDULA S.A.",
+        "swift": ""
+    },
+    "BR33147315": {
+        "name": "Banco Bradesco BERJ S.A.",
+        "code": "33147315",
+        "short_name": "BCO BRADESCO BERJ S.A.",
+        "swift": ""
+    },
+    "BR33172537": {
+        "name": "BANCO J.P. MORGAN S.A.",
+        "code": "33172537",
+        "short_name": "BCO J.P. MORGAN S.A.",
+        "swift": ""
+    },
+    "BR33264668": {
+        "name": "Banco XP S.A.",
+        "code": "33264668",
+        "short_name": "BCO XP S.A.",
+        "swift": ""
+    },
+    "BR33466988": {
+        "name": "Banco Caixa Geral - Brasil S.A.",
+        "code": "33466988",
+        "short_name": "BCO CAIXA GERAL BRASIL S.A.",
+        "swift": ""
+    },
+    "BR33479023": {
+        "name": "Banco Citibank S.A.",
+        "code": "33479023",
+        "short_name": "BCO CITIBANK S.A.",
+        "swift": ""
+    },
+    "BR33603457": {
+        "name": "BANCO RODOBENS S.A.",
+        "code": "33603457",
+        "short_name": "BCO RODOBENS S.A.",
+        "swift": ""
+    },
+    "BR33644196": {
+        "name": "Banco Fator S.A.",
+        "code": "33644196",
+        "short_name": "BCO FATOR S.A.",
+        "swift": ""
+    },
+    "BR33657248": {
+        "name": "BANCO NACIONAL DE DESENVOLVIMENTO ECONOMICO E SOCIAL",
+        "code": "33657248",
+        "short_name": "BNDES",
+        "swift": ""
+    },
+    "BR33775974": {
+        "name": "\"ATIVA INVESTIMENTOS S.A. CORRETORA DE T\u00cdTULOS, C\u00c2MBIO E VALORES",
+        "code": "33775974",
+        "short_name": "ATIVA S.A. INVESTIMENTOS CCTVM",
+        "swift": ""
+    },
+    "BR33862244": {
+        "name": "BGC LIQUIDEZ DISTRIBUIDORA DE T\u00cdTULOS E VALORES MOBILI\u00c1RIOS LTDA",
+        "code": "33862244",
+        "short_name": "BGC LIQUIDEZ DTVM LTDA",
+        "swift": ""
+    },
+    "BR33885724": {
+        "name": "Banco Ita\u00fa Consignado S.A.",
+        "code": "33885724",
+        "short_name": "BANCO ITA\u00da CONSIGNADO S.A.",
+        "swift": ""
+    },
+    "BR33923798": {
+        "name": "Banco M\u00e1xima S.A.",
+        "code": "33923798",
+        "short_name": "BCO M\u00c1XIMA S.A.",
+        "swift": ""
+    },
+    "BR34088029": {
+        "name": "LISTO SOCIEDADE DE CREDITO DIRETO S.A.",
+        "code": "34088029",
+        "short_name": "LISTO SCD S.A.",
+        "swift": ""
+    },
+    "BR34111187": {
+        "name": "Haitong Banco de Investimento do Brasil S.A.",
+        "code": "34111187",
+        "short_name": "HAITONG BI DO BRASIL S.A.",
+        "swift": ""
+    },
+    "BR34335592": {
+        "name": "\u00d3TIMO SOCIEDADE DE CR\u00c9DITO DIRETO S.A.",
+        "code": "34335592",
+        "short_name": "\u00d3TIMO SCD S.A.",
+        "swift": ""
+    },
+    "BR34711571": {
+        "name": "VITREO DISTRIBUIDORA DE T\u00cdTULOS E VALORES MOBILI\u00c1RIOS S.A.",
+        "code": "34711571",
+        "short_name": "VITREO DTVM S.A.",
+        "swift": ""
+    },
+    "BR35977097": {
+        "name": "UP.P SOCIEDADE DE EMPR\u00c9STIMO ENTRE PESSOAS S.A.",
+        "code": "35977097",
+        "short_name": "UP.P SEP S.A.",
+        "swift": ""
+    },
+    "BR36113876": {
+        "name": "OLIVEIRA TRUST DISTRIBUIDORA DE T\u00cdTULOS E VALORES MOBILIARIOS S.A.",
+        "code": "36113876",
+        "short_name": "OLIVEIRA TRUST DTVM S.A.",
+        "swift": ""
+    },
+    "BR36586946": {
+        "name": "B\u00d4NUSCRED SOCIEDADE DE CR\u00c9DITO DIRETO S.A.",
+        "code": "36586946",
+        "short_name": "B\u00d4NUSCRED SCD S.A.",
+        "swift": ""
+    },
+    "BR36947229": {
+        "name": "COBUCCIO SOCIEDADE DE CR\u00c9DITO DIRETO S.A.",
+        "code": "36947229",
+        "short_name": "COBUCCIO SCD S.A.",
+        "swift": ""
+    },
+    "BR37241230": {
+        "name": "SUMUP SOCIEDADE DE CR\u00c9DITO DIRETO S.A.",
+        "code": "37241230",
+        "short_name": "SUMUP SCD S.A.",
+        "swift": ""
+    },
+    "BR37715993": {
+        "name": "ACCREDITO - SOCIEDADE DE CR\u00c9DITO DIRETO S.A.",
+        "code": "37715993",
+        "short_name": "ACCREDITO SCD S.A.",
+        "swift": ""
+    },
+    "BR37880206": {
+        "name": "CORA SOCIEDADE DE CR\u00c9DITO DIRETO S.A.",
+        "code": "37880206",
+        "short_name": "CORA SCD S.A.",
+        "swift": ""
+    },
+    "BR40303299": {
+        "name": "PORTOPAR DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA.",
+        "code": "40303299",
+        "short_name": "PORTOPAR DTVM LTDA",
+        "swift": ""
+    },
+    "BR42272526": {
+        "name": "BNY Mellon Banco S.A.",
+        "code": "42272526",
+        "short_name": "BNY MELLON BCO S.A.",
+        "swift": ""
+    },
+    "BR43180355": {
+        "name": "\"PEFISA S.A. - CR\u00c9DITO, FINANCIAMENTO E INVESTIMENTO",
+        "code": "43180355",
+        "short_name": "PEFISA S.A. - CFI",
+        "swift": ""
+    },
+    "BR44189447": {
+        "name": "Banco de La Provincia de Buenos Aires",
+        "code": "44189447",
+        "short_name": "BCO LA PROVINCIA B AIRES BCE",
+        "swift": ""
+    },
+    "BR45246410": {
+        "name": "Plural S.A. Banco M\u00faltiplo",
+        "code": "45246410",
+        "short_name": "PLURAL BCO BM",
+        "swift": ""
+    },
+    "BR46518205": {
+        "name": "\"JPMorgan Chase Bank, National Association",
+        "code": "46518205",
+        "short_name": "JPMORGAN CHASE BANK",
+        "swift": ""
+    },
+    "BR48795256": {
+        "name": "Banco AndBank (Brasil) S.A.",
+        "code": "48795256",
+        "short_name": "BCO ANDBANK S.A.",
+        "swift": ""
+    },
+    "BR49336860": {
+        "name": "ING Bank N.V.",
+        "code": "49336860",
+        "short_name": "ING BANK N.V.",
+        "swift": ""
+    },
+    "BR50579044": {
+        "name": "LEVYCAM - CORRETORA DE CAMBIO E VALORES LTDA.",
+        "code": "50579044",
+        "short_name": "LEVYCAM CCV LTDA",
+        "swift": ""
+    },
+    "BR50585090": {
+        "name": "BCV - BANCO DE CR\u00c9DITO E VAREJO S.A.",
+        "code": "50585090",
+        "short_name": "BCV",
+        "swift": ""
+    },
+    "BR52904364": {
+        "name": "NECTON INVESTIMENTOS  S.A. CORRETORA DE VALORES MOBILI\u00c1RIOS E COMMODITIES",
+        "code": "52904364",
+        "short_name": "NECTON INVESTIMENTOS S.A CVM",
+        "swift": ""
+    },
+    "BR52937216": {
+        "name": "Bexs Corretora de C\u00e2mbio S/A",
+        "code": "52937216",
+        "short_name": "BEXS CC S.A.",
+        "swift": ""
+    },
+    "BR53518684": {
+        "name": "BANCO HSBC S.A.",
+        "code": "53518684",
+        "short_name": "BCO HSBC S.A.",
+        "swift": ""
+    },
+    "BR54403563": {
+        "name": "Banco Arbi S.A.",
+        "code": "54403563",
+        "short_name": "BCO ARBI S.A.",
+        "swift": ""
+    },
+    "BR54641030": {
+        "name": "C\u00e2mara B3",
+        "code": "54641030",
+        "short_name": "C\u00e2mara B3",
+        "swift": ""
+    },
+    "BR55230916": {
+        "name": "Intesa Sanpaolo Brasil S.A. - Banco M\u00faltiplo",
+        "code": "55230916",
+        "short_name": "INTESA SANPAOLO BRASIL S.A. BM",
+        "swift": ""
+    },
+    "BR57839805": {
+        "name": "Banco Tricury S.A.",
+        "code": "57839805",
+        "short_name": "BCO TRICURY S.A.",
+        "swift": ""
+    },
+    "BR58160789": {
+        "name": "Banco Safra S.A.",
+        "code": "58160789",
+        "short_name": "BCO SAFRA S.A.",
+        "swift": ""
+    },
+    "BR58497702": {
+        "name": "Banco Smartbank S.A.",
+        "code": "58497702",
+        "short_name": "SMARTBANK",
+        "swift": ""
+    },
+    "BR58616418": {
+        "name": "Banco Fibra S.A.",
+        "code": "58616418",
+        "short_name": "BCO FIBRA S.A.",
+        "swift": ""
+    },
+    "BR59109165": {
+        "name": "Banco Volkswagen S.A.",
+        "code": "59109165",
+        "short_name": "BCO VOLKSWAGEN S.A",
+        "swift": ""
+    },
+    "BR59118133": {
+        "name": "Banco Luso Brasileiro S.A.",
+        "code": "59118133",
+        "short_name": "BCO LUSO BRASILEIRO S.A.",
+        "swift": ""
+    },
+    "BR59274605": {
+        "name": "BANCO GM S.A.",
+        "code": "59274605",
+        "short_name": "BCO GM S.A.",
+        "swift": ""
+    },
+    "BR59285411": {
+        "name": "Banco Pan S.A.",
+        "code": "59285411",
+        "short_name": "BANCO PAN",
+        "swift": ""
+    },
+    "BR59588111": {
+        "name": "Banco Votorantim S.A.",
+        "code": "59588111",
+        "short_name": "BCO VOTORANTIM S.A.",
+        "swift": ""
+    },
+    "BR60394079": {
+        "name": "Banco ItauBank S.A.",
+        "code": "60394079",
+        "short_name": "BCO ITAUBANK S.A.",
+        "swift": ""
+    },
+    "BR60498557": {
+        "name": "Banco MUFG Brasil S.A.",
+        "code": "60498557",
+        "short_name": "BCO MUFG BRASIL S.A.",
+        "swift": ""
+    },
+    "BR60518222": {
+        "name": "Banco Sumitomo Mitsui Brasileiro S.A.",
+        "code": "60518222",
+        "short_name": "BCO SUMITOMO MITSUI BRASIL S.A.",
+        "swift": ""
+    },
+    "BR60701190": {
+        "name": "ITA\u00da UNIBANCO S.A.",
+        "code": "60701190",
+        "short_name": "ITA\u00da UNIBANCO S.A.",
+        "swift": ""
+    },
+    "BR60746948": {
+        "name": "Banco Bradesco S.A.",
+        "code": "60746948",
+        "short_name": "BCO BRADESCO S.A.",
+        "swift": ""
+    },
+    "BR60814191": {
+        "name": "BANCO MERCEDES-BENZ DO BRASIL S.A.",
+        "code": "60814191",
+        "short_name": "BCO MERCEDES-BENZ S.A.",
+        "swift": ""
+    },
+    "BR60850229": {
+        "name": "Omni Banco S.A.",
+        "code": "60850229",
+        "short_name": "OMNI BANCO S.A.",
+        "swift": ""
+    },
+    "BR60872504": {
+        "name": "Ita\u00fa Unibanco Holding S.A.",
+        "code": "60872504",
+        "short_name": "ITA\u00da UNIBANCO HOLDING S.A.",
+        "swift": ""
+    },
+    "BR60889128": {
+        "name": "BANCO SOFISA S.A.",
+        "code": "60889128",
+        "short_name": "BCO SOFISA S.A.",
+        "swift": ""
+    },
+    "BR60934221": {
+        "name": "C\u00e2mara de C\u00e2mbio B3",
+        "code": "60934221",
+        "short_name": "C\u00e2mbio B3",
+        "swift": ""
+    },
+    "BR61024352": {
+        "name": "BANCO INDUSVAL S.A.",
+        "code": "61024352",
+        "short_name": "BCO INDUSVAL S.A.",
+        "swift": ""
+    },
+    "BR61033106": {
+        "name": "Banco Crefisa S.A.",
+        "code": "61033106",
+        "short_name": "BCO CREFISA S.A.",
+        "swift": ""
+    },
+    "BR61088183": {
+        "name": "Banco Mizuho do Brasil S.A.",
+        "code": "61088183",
+        "short_name": "BCO MIZUHO S.A.",
+        "swift": ""
+    },
+    "BR61182408": {
+        "name": "Banco Investcred Unibanco S.A.",
+        "code": "61182408",
+        "short_name": "BANCO INVESTCRED UNIBANCO S.A.",
+        "swift": ""
+    },
+    "BR61186680": {
+        "name": "Banco BMG S.A.",
+        "code": "61186680",
+        "short_name": "BCO BMG S.A.",
+        "swift": ""
+    },
+    "BR61348538": {
+        "name": "BANCO C6 CONSIGNADO S.A.",
+        "code": "61348538",
+        "short_name": "BCO C6 CONSIG",
+        "swift": ""
+    },
+    "BR61444949": {
+        "name": "Sagitur Corretora de C\u00e2mbio Ltda.",
+        "code": "61444949",
+        "short_name": "SAGITUR CC LTDA",
+        "swift": ""
+    },
+    "BR61533584": {
+        "name": "BANCO SOCIETE GENERALE BRASIL S.A.",
+        "code": "61533584",
+        "short_name": "BCO SOCIETE GENERALE BRASIL",
+        "swift": ""
+    },
+    "BR61723847": {
+        "name": "Magliano S.A. Corretora de Cambio e Valores Mobiliarios",
+        "code": "61723847",
+        "short_name": "MAGLIANO S.A. CCVM",
+        "swift": ""
+    },
+    "BR61747085": {
+        "name": "TULLETT PREBON BRASIL CORRETORA DE VALORES E C\u00c2MBIO LTDA",
+        "code": "61747085",
+        "short_name": "TULLETT PREBON BRASIL CVC LTDA",
+        "swift": ""
+    },
+    "BR61809182": {
+        "name": "CREDIT SUISSE HEDGING-GRIFFO CORRETORA DE VALORES S.A",
+        "code": "61809182",
+        "short_name": "C.SUISSE HEDGING-GRIFFO CV S/A",
+        "swift": ""
+    },
+    "BR61820817": {
+        "name": "Banco Paulista S.A.",
+        "code": "61820817",
+        "short_name": "BCO PAULISTA S.A.",
+        "swift": ""
+    },
+    "BR62073200": {
+        "name": "Bank of America Merrill Lynch Banco M\u00faltiplo S.A.",
+        "code": "62073200",
+        "short_name": "BOFA MERRILL LYNCH BM S.A.",
+        "swift": ""
+    },
+    "BR62109566": {
+        "name": "CREDISAN COOPERATIVA DE CR\u00c9DITO",
+        "code": "62109566",
+        "short_name": "CREDISAN CC",
+        "swift": ""
+    },
+    "BR62144175": {
+        "name": "Banco Pine S.A.",
+        "code": "62144175",
+        "short_name": "BCO PINE S.A.",
+        "swift": ""
+    },
+    "BR62169875": {
+        "name": "Easynvest - T\u00edtulo Corretora de Valores SA",
+        "code": "62169875",
+        "short_name": "EASYNVEST - T\u00cdTULO CV SA",
+        "swift": ""
+    },
+    "BR62232889": {
+        "name": "Banco Daycoval S.A.",
+        "code": "62232889",
+        "short_name": "BCO DAYCOVAL S.A",
+        "swift": ""
+    },
+    "BR62237649": {
+        "name": "CAROL DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA.",
+        "code": "62237649",
+        "short_name": "CAROL DTVM LTDA.",
+        "swift": ""
+    },
+    "BR62285390": {
+        "name": "SINGULARE CORRETORA DE T\u00cdTULOS E VALORES MOBILI\u00c1RIOS S.A.",
+        "code": "62285390",
+        "short_name": "SINGULARE CTVM S.A.",
+        "swift": ""
+    },
+    "BR62287735": {
+        "name": "RENASCENCA DISTRIBUIDORA DE T\u00cdTULOS E VALORES MOBILI\u00c1RIOS LTDA",
+        "code": "62287735",
+        "short_name": "RENASCENCA DTVM LTDA",
+        "swift": ""
+    },
+    "BR62331228": {
+        "name": "DEUTSCHE BANK S.A. - BANCO ALEMAO",
+        "code": "62331228",
+        "short_name": "DEUTSCHE BANK S.A.BCO ALEMAO",
+        "swift": ""
+    },
+    "BR62421979": {
+        "name": "Banco Cifra S.A.",
+        "code": "62421979",
+        "short_name": "BANCO CIFRA",
+        "swift": ""
+    },
+    "BR65913436": {
+        "name": "Guide Investimentos S.A. Corretora de Valores",
+        "code": "65913436",
+        "short_name": "GUIDE",
+        "swift": ""
+    },
+    "BR68757681": {
+        "name": "SOLIDUS S.A. CORRETORA DE CAMBIO E VALORES MOBILIARIOS",
+        "code": "68757681",
+        "short_name": "SOLIDUS S.A. CCVM",
+        "swift": ""
+    },
+    "BR68900810": {
+        "name": "Banco Rendimento S.A.",
+        "code": "68900810",
+        "short_name": "BCO RENDIMENTO S.A.",
+        "swift": ""
+    },
+    "BR71027866": {
+        "name": "Banco BS2 S.A.",
+        "code": "71027866",
+        "short_name": "BCO BS2 S.A.",
+        "swift": ""
+    },
+    "BR71371686": {
+        "name": "BANCO OL\u00c9 CONSIGNADO S.A.",
+        "code": "71371686",
+        "short_name": "BCO OL\u00c9 CONSIGNADO S.A.",
+        "swift": ""
+    },
+    "BR71590442": {
+        "name": "Lastro RDV Distribuidora de T\u00edtulos e Valores Mobili\u00e1rios Ltda.",
+        "code": "71590442",
+        "short_name": "LASTRO RDV DTVM LTDA",
+        "swift": ""
+    },
+    "BR71677850": {
+        "name": "Frente Corretora de C\u00e2mbio Ltda.",
+        "code": "71677850",
+        "short_name": "FRENTE CC LTDA.",
+        "swift": ""
+    },
+    "BR73622748": {
+        "name": "B&T CORRETORA DE CAMBIO LTDA.",
+        "code": "73622748",
+        "short_name": "B&T CC LTDA.",
+        "swift": ""
+    },
+    "BR74828799": {
+        "name": "Novo Banco Continental S.A. - Banco M\u00faltiplo",
+        "code": "74828799",
+        "short_name": "NOVO BCO CONTINENTAL S.A. - BM",
+        "swift": ""
+    },
+    "BR75647891": {
+        "name": "BANCO CR\u00c9DIT AGRICOLE BRASIL S.A.",
+        "code": "75647891",
+        "short_name": "BCO CR\u00c9DIT AGRICOLE BR S.A.",
+        "swift": ""
+    },
+    "BR76461557": {
+        "name": "Cooperativa de Cr\u00e9dito Rural Coopavel",
+        "code": "76461557",
+        "short_name": "CCR COOPAVEL",
+        "swift": ""
+    },
+    "BR76543115": {
+        "name": "Banco Sistema S.A.",
+        "code": "76543115",
+        "short_name": "BANCO SISTEMA",
+        "swift": ""
+    },
+    "BR76641497": {
+        "name": "DOURADA CORRETORA DE C\u00c2MBIO LTDA.",
+        "code": "76641497",
+        "short_name": "DOURADA CORRETORA",
+        "swift": ""
+    },
+    "BR78157146": {
+        "name": "Credialian\u00e7a Cooperativa de Cr\u00e9dito Rural",
+        "code": "78157146",
+        "short_name": "CREDIALIAN\u00c7A CCR",
+        "swift": ""
+    },
+    "BR78626983": {
+        "name": "Banco VR S.A.",
+        "code": "78626983",
+        "short_name": "BCO VR S.A.",
+        "swift": ""
+    },
+    "BR78632767": {
+        "name": "Banco Ourinvest S.A.",
+        "code": "78632767",
+        "short_name": "BCO OURINVEST S.A.",
+        "swift": ""
+    },
+    "BR81723108": {
+        "name": "CREDICOAMO CREDITO RURAL COOPERATIVA",
+        "code": "81723108",
+        "short_name": "CREDICOAMO",
+        "swift": ""
+    },
+    "BR89960090": {
+        "name": "RB CAPITAL INVESTIMENTOS DISTRIBUIDORA DE T\u00cdTULOS E VALORES MOBILI\u00c1RIOS LIMITADA",
+        "code": "89960090",
+        "short_name": "RB CAPITAL INVESTIMENTOS DTVM LTDA.",
+        "swift": ""
+    },
+    "BR90400888": {
+        "name": "BANCO SANTANDER (BRASIL) S.A.",
+        "code": "90400888",
+        "short_name": "BCO SANTANDER (BRASIL) S.A.",
+        "swift": ""
+    },
+    "BR91884981": {
+        "name": "Banco John Deere S.A.",
+        "code": "91884981",
+        "short_name": "BANCO JOHN DEERE S.A.",
+        "swift": ""
+    },
+    "BR92702067": {
+        "name": "Banco do Estado do Rio Grande do Sul S.A.",
+        "code": "92702067",
+        "short_name": "BCO DO ESTADO DO RS S.A.",
+        "swift": ""
+    },
+    "BR92856905": {
+        "name": "ADVANCED CORRETORA DE C\u00c2MBIO LTDA",
+        "code": "92856905",
+        "short_name": "ADVANCED CC LTDA",
+        "swift": ""
+    },
+    "BR92874270": {
+        "name": "BANCO DIGIMAIS S.A.",
+        "code": "92874270",
+        "short_name": "BCO DIGIMAIS S.A.",
+        "swift": ""
+    },
+    "BR92875780": {
+        "name": "WARREN CORRETORA DE VALORES MOBILI\u00c1RIOS E C\u00c2MBIO LTDA.",
+        "code": "92875780",
+        "short_name": "WARREN CVMC LTDA",
+        "swift": ""
+    },
+    "BR92894922": {
+        "name": "Banco Original S.A.",
+        "code": "92894922",
+        "short_name": "BANCO ORIGINAL",
+        "swift": ""
+    },
+    "BR94968518": {
+        "name": "DECYSEO CORRETORA DE CAMBIO LTDA.",
+        "code": "94968518",
+        "short_name": "DECYSEO CC LTDA.",
+        "swift": ""
+    }
+}

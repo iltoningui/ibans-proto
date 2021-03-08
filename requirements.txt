@@ -1,0 +1,17 @@
+beautifulsoup4==4.9.3
+certifi==2020.12.5
+chardet==4.0.0
+idna==2.10
+protobuf==3.15.2
+requests==2.25.1
+six==1.15.0
+soupsieve==2.2
+urllib3==1.26.3
+
+pip~=21.0
+wheel~=0.35.1
+google~=3.0.0
+py~=1.10.0
+keyring~=21.8.0
+setuptools~=49.2.1
+docutils~=0.16
