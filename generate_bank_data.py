@@ -1,26 +1,42 @@
+import os
+
 import json
 
 from google.protobuf.json_format import ParseDict
 
-from bank_pb2 import Banks
+from proto.python.proto.specs_pb2 import BanksData
 
 
 def generate():
-    data = []
-    with open("banks/AO0600.txt", "r", encoding="utf8") as file:
-        for line in file:
-            if not line or line.startswith("#"):
-                continue
+    data = {}
+    banks = {}
+    import glob
+    for path in glob.glob('data/banks/*.txt'):
+        with open(os.path.join(os.getcwd(), path), "r", encoding="utf8") as file:
+            for line in file:
+                if not line or line.startswith("#"):
+                    continue
 
-            line = line.strip()
-            code, name, initials, swift = line.split("|")
+                line = line.strip()
+                country_code, code, name, short_name, swift = line.split("|")
+                if not code or not name:
+                    continue
+                key = f"{country_code}{code}"
+                filename = country_code + ".dat"
+                if not banks.get(filename):
+                    banks[filename] = {}
 
-            data.append({"name": name, "code": code, "initials": initials, "swift": swift})
+                data[key] = {"name": name, "code": code, "short_name": short_name, "swift": swift}
+                banks[filename][key] = data[key]
 
-    banks = ParseDict({"list": data}, Banks())
-
-    with open("banks.json", "w") as file:
+    with open("json/banks.json", "w") as file:
         json.dump(data, file, indent=4)
 
-    with open("banks.dat", "wb") as file:
-        file.write(banks.SerializeToString())
+    with open("json/banks.min.json", "w") as file:
+        json.dump(data, file)
+
+    for filename, bank_map in banks.items():
+        bank_obj = ParseDict({"banks": bank_map}, BanksData())
+
+        with open(f"bin/banks/{filename}", "wb+", ) as file:
+            file.write(bank_obj.SerializeToString())
