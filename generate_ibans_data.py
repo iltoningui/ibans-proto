@@ -101,13 +101,15 @@ def __get_patterns(country_code: str, bban_format: str, iban_fields: str) -> dic
     reserved_fields = re.finditer(r"[0-9]+", iban_fields)
     if reserved_fields.__sizeof__() > 0:
         patterns["reserved_fields"] = {"pattern": "", "data": ""}
+        pos = 0
         for match in reserved_fields:
             s = match.start()
             e = match.end()
             if s <= 3:
                 continue
-            patterns["reserved_fields"]["pattern"] += f".{{{s}}}([{iban_fields[s:e]}]{{{e - s}}})"
+            patterns["reserved_fields"]["pattern"] += f".{{{pos}}}([{iban_fields[s:e]}]{{{e - s}}})"
             patterns["reserved_fields"]["data"] += iban_fields[s:e]
+            pos += e - s
 
     for match in re.finditer(r"[x]+", iban_fields):
         s = match.start()
